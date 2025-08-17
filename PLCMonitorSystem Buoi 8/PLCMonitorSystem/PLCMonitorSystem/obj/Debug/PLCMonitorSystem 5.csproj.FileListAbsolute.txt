@@ -1,0 +1,29 @@
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 5.csproj.AssemblyReference.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 5.csproj.GenerateResource.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 5.csproj.CoreCompileInputs.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb

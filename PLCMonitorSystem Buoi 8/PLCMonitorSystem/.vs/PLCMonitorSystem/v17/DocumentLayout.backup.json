@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 8.csproj|D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 8.csproj|solutionrelative:plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 8.csproj|D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\plcmonitorsystem\\lib\\nonprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 8.csproj|solutionrelative:plcmonitorsystem\\lib\\nonprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 8.csproj|d:\\learning_\\example_\\plcmonitorsystem buoi 8\\plcmonitorsystem\\plcmonitorsystem\\lib\\mc_format5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 8.csproj|solutionrelative:plcmonitorsystem\\lib\\mc_format5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PgSerial.xaml.cs",
+              "DocumentMoniker": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ToolTip": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:58:12.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MC_Format5.cs",
+              "DocumentMoniker": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "ToolTip": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwF4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:54:10.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NonProcedure.cs",
+              "DocumentMoniker": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\PLCMonitorSystem\\LIB\\NonProcedure.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\NonProcedure.cs",
+              "ToolTip": "D:\\LEARNING_\\EXAMPLE_\\PLCMonitorSystem Buoi 8\\PLCMonitorSystem\\PLCMonitorSystem\\LIB\\NonProcedure.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\LIB\\NonProcedure.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAawFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:52:47.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

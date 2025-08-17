@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 10\\plcmonitorsystem\\lib\\mc_format5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\lib\\mc_format5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PgSerial.xaml.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:41:10.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MC_Format5.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\LIB\\MC_Format5.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAAMwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:41:01.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

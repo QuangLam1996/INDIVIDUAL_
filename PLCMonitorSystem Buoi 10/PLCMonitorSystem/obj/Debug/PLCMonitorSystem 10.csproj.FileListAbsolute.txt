@@ -1,0 +1,95 @@
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.AssemblyReference.cache
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgSerial.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\App.g.cs
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\App.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\MainWindow.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgSerial.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.GenerateResource.cache
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.CoreCompileInputs.cache
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+D:\LEARNING_\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.AssemblyReference.cache
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgSerial.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\App.g.cs
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\App.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\MainWindow.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgSerial.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.GenerateResource.cache
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.CoreCompileInputs.cache
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+D:\LEARNING\EXAMPLE_\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.AssemblyReference.cache
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgSerial.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\App.g.cs
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\App.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\MainWindow.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\PgSerial.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.GenerateResource.cache
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.CoreCompileInputs.cache
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 10\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb

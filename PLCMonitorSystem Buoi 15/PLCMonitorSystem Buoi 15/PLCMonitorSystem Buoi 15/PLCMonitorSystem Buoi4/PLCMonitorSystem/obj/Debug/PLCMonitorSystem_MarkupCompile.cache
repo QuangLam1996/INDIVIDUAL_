@@ -1,0 +1,20 @@
+﻿PLCMonitorSystem
+
+
+winexe
+C#
+.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem Buoi 15\PLCMonitorSystem Buoi4\PLCMonitorSystem\obj\Debug\
+PLCMonitorSystem
+none
+false
+DEBUG;TRACE
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem Buoi 15\PLCMonitorSystem Buoi4\PLCMonitorSystem\App.xaml
+7765778363
+
+192638705
+14794610160
+MainWindow.xaml;UI\PgAlarm.xaml;UI\PgIO.xaml;UI\PgMain.xaml;UI\PgMenu.xaml;UI\PgSerial.xaml;UI\WndMain.xaml;
+
+False
+

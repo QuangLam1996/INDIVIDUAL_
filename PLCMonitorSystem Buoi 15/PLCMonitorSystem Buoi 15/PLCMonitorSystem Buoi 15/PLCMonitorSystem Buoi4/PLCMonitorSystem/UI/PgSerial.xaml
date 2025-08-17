@@ -1,0 +1,178 @@
+﻿<Page x:Class="PLCMonitorSystem.UI.PgSerial"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PLCMonitorSystem.UI"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="1080"
+      Title="PgSerial">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer>
+            <StackPanel>
+                <Button Name="btnOpen"
+                        Height="50"
+                        Content="OPEN"/>
+                <Button Name="btnClose"
+                        Height="50"
+                        Content="CLOSE"/>
+                <TextBox Name="txtSendData"
+                         Height="50"
+                         Text="ABCXYZ"/>
+                <Button Name="btnSendData"
+                        Height="50"
+                        Content="SEND"/>
+                <TextBox Name="txtRcvData"
+                         Height="50"
+                         Text="....."/>
+                <Button Name="btnRcvData"
+                        Height="50"
+                        Content="RECIEVE"/>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="1">
+            <StackPanel>
+                <Button Name="btnMcOpen"
+                        Height="50"
+                        Content="MC OPEN"/>
+                <Button Name="btnMcClose"
+                        Height="50"
+                        Content="MC CLOSE"/>
+                <Button x:Name="btnReadWord"
+                        Height="50"
+                        Content="ReadWord"/>
+                <Button x:Name="btnReadDoubleWord"
+                        Height="50"
+                        Content="Read Double Word"/>
+                <Button x:Name="btnReadFloat"
+                        Height="50"
+                        Content="Read Float"/>
+                <Button x:Name="btnReadBit"
+                        Height="50"
+                        Content="Read Bit"/>
+                <Button x:Name="btnReadMultiBit"
+                        Height="50"
+                        Content="Read Multi Bit"/>
+                <Button x:Name="btnWriteBitON"
+                        Height="50"
+                        Content="Write Bit ON"/>
+                <Button x:Name="btnWriteBitOFF"
+                        Height="50"
+                        Content="Write Bit OFF"/>
+                <Button x:Name="btnWriteMultiBitOFF"
+                        Height="50"
+                        Content="Write Multi Bit OFF"/>
+                <Button x:Name="btnWriteMultiBitON"
+                        Height="50"
+                        Content="Write Multi Bit ON"/>
+                <Button x:Name="btnWriteWord"
+                        Height="50"
+                        Content="Write Word"/>
+                <Button x:Name="btnWriteMultiWord"
+                        Height="50"
+                        Content="Write Multi Word"/>
+                <Button x:Name="btnWriteDoubleWord"
+                        Height="50"
+                        Content="Write Double Word"/>
+                <Button x:Name="btnWriteFloat"
+                        Height="50"
+                        Content="Write Float"/>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="2">
+            <StackPanel>
+                <Button x:Name="btnEOpen"
+                        Content="E OPEN"
+                        Height="50"/>
+                <Button x:Name="btnEClose"
+                        Content="E CLOSE"
+                        Height="50"/>
+                <Button x:Name="btnESend"
+                        Content="E SEND"
+                        Height="50"/>
+                <Button x:Name="btnERecieve"
+                        Content="E RECEIVE"
+                        Height="50"/>
+                <Button x:Name="btnSEOPEN"
+                        Content="Server Listen"
+                        Height="50"/>
+                <Button x:Name="btnSECLOSE"
+                        Content="SECLOSE"
+                        Height="50"/>
+                <Button x:Name="btnSESEND"
+                        Content="SE SEND"
+                        Height="50"/>
+                <Button x:Name="btnSERECEIVE"
+                        Content="SE RECEVIE"
+                        Height="50"/>
+
+
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="3">
+            <StackPanel>
+                <Button Name="btnMCOpen"
+                        Content="MC OPEN"
+                        Height="50"/>
+                <Button Name="btnMCClose"
+                        Content="MC CLOSE"
+                        Height="50"/>
+                <Button Name="btnMCReadWord"
+                        Content="MC Read Word"
+                        Height="50"/>
+                <Button Name="btnMCReadDoubleWord"
+                        Content="MC Read Double Word"
+                        Height="50"/>
+                <Button Name="btnMCReadFloat"
+                        Content="MC Read Float"
+                        Height="50"/>
+                <Button Name="btnMCReadBit"
+                        Content="MC Read Bit"
+                        Height="50"/>
+                <Button Name="btnMCReadMultiBit"
+                        Content="MC Read Multi Bit"
+                        Height="50"/>
+                <TextBox Name="txtMCWriteWord"
+                         Text="123"
+                         Height="50"/>
+                <Button Name="btnMCWriteWord"
+                        Content="MC Write Word"
+                        Height="50"/>
+                <CheckBox Name="chbMCWriteBit"
+                          IsChecked="False"
+                          Content="BIT ON OFF"
+                          Height="50"/>
+                <Button Name="btnMCWriteBit"
+                        Content="MC Write Bit"
+                        Height="50"/>
+                <Button Name="btnMCWriteMultiBit"
+                        Content="Write Multi Bit"
+                        Height="50"/>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="4">
+            <StackPanel>
+                <Button Name="btnMXOpen"
+                        Content="MX OPEN"
+                        Height="50"/>
+                <Button Name="btnMXClose"
+                        Content="MX CLOSE"
+                        Height="50"/>
+                <Button Name="btnMXStart"
+                        Content="MX START"
+                        Height="50"/>
+                <Button Name="btnMXStop"
+                        Content="MX STOP"
+                        Height="50"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

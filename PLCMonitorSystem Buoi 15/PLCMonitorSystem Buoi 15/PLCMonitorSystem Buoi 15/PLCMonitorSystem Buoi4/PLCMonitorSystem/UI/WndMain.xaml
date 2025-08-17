@@ -1,0 +1,105 @@
+﻿<Window x:Class="PLCMonitorSystem.UI.WndMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLCMonitorSystem.UI"
+        mc:Ignorable="d"
+        Title="WndMain" Height="720" Width="1080">
+    <Grid Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0"
+              Background="LightSkyBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" ></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="/IMG/monitoting.png" ></Image>
+            <!--Content: Nội dung của thẻ-->
+            <Label Grid.Column="1"
+                   Content="PLC MONITORING SYSTEM"
+                   VerticalContentAlignment="Center"
+                   HorizontalContentAlignment="Center"
+                   FontSize="20"
+                   FontFamily="Arial"
+                   Foreground="OrangeRed"
+                   FontWeight="ExtraBold"
+                   ></Label>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="2024/01/16"></Label>
+                <Label Grid.Row ="1" Content="21:00:00"></Label>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Button
+                    Name="btnMain"
+                    Background="AliceBlue"
+                    Content="MAIN"
+                    VerticalContentAlignment="Center"
+                    HorizontalContentAlignment="Center"
+                    FontSize="15"
+                    FontWeight="Bold"
+                    FontFamily="Calibri"
+                    ></Button>
+            </Grid>
+            <Button 
+                    Name="btnMenu"
+                    Grid.Column="4"
+                    Background="AliceBlue"
+                    Content="MENU"
+                    VerticalContentAlignment="Center"
+                    HorizontalContentAlignment="Center"
+                    FontSize="15"
+                    FontWeight="Bold"
+                    FontFamily="Calibri"
+                    ></Button>
+            <Button 
+                Name="btnIO"
+                Grid.Column="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="/IMG/input.png"></Image>
+                    <Label Grid.Column="1" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           FontWeight="Bold"
+                           Content="IO"></Label>
+                </Grid>
+            </Button>
+            <Button 
+                x:Name="btnAlarm"
+                Grid.Column="6">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Source="/IMG/alarm.png"></Image>
+                    <Label Grid.Row="1" Content="ALARM"
+                           HorizontalContentAlignment="Center"
+                           VerticalContentAlignment="Center"
+                           FontSize="12"
+                           FontWeight="Bold"
+                           ></Label>
+                </Grid>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Frame x:Name="frmMain"></Frame>
+        </Grid>
+    </Grid>
+</Window>
