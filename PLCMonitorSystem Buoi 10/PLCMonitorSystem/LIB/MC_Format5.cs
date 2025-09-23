@@ -79,7 +79,7 @@ namespace PLCMonitorSystem.LIB
         public int BaundRate { get => baundRate; set => baundRate = value; }
         public Parity ParityBits { get => parityBits; set => parityBits = value; }
 
-        // Các Field and Property của MC Protocol Format5
+       
         private int stationNo;
         private int networkNo;
         private int pcNo;

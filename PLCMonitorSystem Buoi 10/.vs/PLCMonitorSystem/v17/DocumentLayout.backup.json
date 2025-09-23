@@ -28,9 +28,10 @@
               "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
               "RelativeToolTip": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwEAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwEAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:41:10.591Z"
+              "WhenOpened": "2025-01-21T04:41:10.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\MC_Format5.cs",
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 10\\PLCMonitorSystem\\LIB\\MC_Format5.cs",
               "RelativeToolTip": "PLCMonitorSystem\\LIB\\MC_Format5.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAAAMwAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T04:41:01.414Z",
               "EditorCaption": ""

@@ -1,0 +1,16 @@
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\bin\Debug\WPF.exe.config
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\bin\Debug\WPF.exe
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\bin\Debug\WPF.pdb
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.AssemblyReference.cache
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\MainWindow.g.cs
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\App.g.cs
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF_MarkupCompile.cache
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF_MarkupCompile.lref
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\MainWindow.baml
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.g.resources
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.Properties.Resources.resources
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.exe
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.pdb
+F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.exe.config
