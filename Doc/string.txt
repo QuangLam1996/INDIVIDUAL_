@@ -1,0 +1,73 @@
+Chuỗi (string) và phương thức xử lý chuỗi trong C#
+Trong C#, chuỗi (string) là một kiểu dữ liệu được sử dụng để quản lý và xử lý dữ liệu văn bản. Dưới đây là một số hàm và phương thức phổ biến để xử lý chuỗi trong C#:
+
+1. Khởi tạo chuỗi
+string myString = "Hello, World!";
+
+2. Một số property và phương thức phổ biến
+Length: Property này lấy độ dài của chuỗi.
+
+int length = myString.Length; // 13
+
+Substring(): Trích xuất một chuỗi con.
+
+string sub = myString.Substring(0, 5); // "Hello"
+
+IndexOf(): Tìm vị trí của một ký tự hoặc chuỗi.
+
+int index = myString.IndexOf("World"); // 7
+
+Contains(): Kiểm tra xem chuỗi có chứa một ký tự hoặc chuỗi khác hay không.
+
+bool contains = myString.Contains("Hello"); // true
+
+Replace(): Thay thế một chuỗi con bằng một chuỗi khác.
+
+string replaced = myString.Replace("World", "C#"); // "Hello, C#!"
+
+ToLower(): Chuyển đổi chuỗi thành chữ thường.
+
+string lower = myString.ToLower(); // "hello, world!"
+
+ToUpper(): Chuyển đổi chuỗi thành chữ in hoa.
+
+string upper = myString.ToUpper(); // "HELLO, WORLD!"
+
+Trim(): Xóa các ký tự trắng (space) ở đầu và cuối chuỗi.
+
+string trimmed = " Hello World ".Trim(); // "Hello World"
+
+Split(): Chia chuỗi thành một mảng các chuỗi dựa trên dấu phân cách.
+
+string[] parts = myString.Split(','); // ["Hello", " World!"]
+
+3. Nội suy chuỗi (String interpolation)
+Bạn có thể sử dụng nội suy chuỗi để kết hợp các biến trong chuỗi một cách dễ dàng:
+
+string name = "John";
+
+string greeting = $"Hello, {name}!"; // "Hello, John!"
+
+4. Chuỗi định dạng (String formatting)
+Bạn cũng có thể định dạng chuỗi với string.Format:
+
+string formatted = string.Format("Hello, {0}!", name); // "Hello, John!"
+
+5. Các phương thức khác
+StartsWith(): Kiểm tra xem chuỗi có bắt đầu bằng một chuỗi khác không.
+
+bool starts = myString.StartsWith("Hello"); // true
+
+EndsWith(): Kiểm tra xem chuỗi có kết thúc bằng một chuỗi khác không.
+
+bool ends = myString.EndsWith("!"); // true
+
+6. Kết hợp chuỗi
+Bạn có thể kết hợp các chuỗi lại với nhau bằng cách sử dụng toán tử + hoặc phương thức String.Concat:
+
+string combined = myString + " How are you?"; // "Hello, World! How are you?"
+
+
+
+Trên đây là một số phương thức phổ biến trong C# để xử lý chuỗi. C# cung cấp nhiều phương thức khác trong lớp String để xử lý chuỗi một cách linh hoạt và hiệu quả.
+

@@ -1,0 +1,186 @@
+Kiến thức chi tiết về I/O File
+Trong C#, việc đọc và ghi dữ liệu vào tệp (file) được thực hiện thông qua các lớp trong namespace System.IO. 
+Dưới đây là các khái niệm và kỹ thuật cơ bản khi làm việc với file I/O trong C#:
+
+1. Các Lớp Chính Trong System.IO
+File: Cung cấp các phương thức tĩnh để tạo, sao chép, xóa, di chuyển và mở tệp.
+
+FileInfo: Tương tự như File, nhưng là phiên bản không tĩnh, cho phép truy cập các thuộc tính và phương thức thao tác với tệp.
+
+Directory: Cung cấp các phương thức tĩnh để tạo, di chuyển, xóa và liệt kê thư mục.
+
+DirectoryInfo: Phiên bản không tĩnh của Directory, cho phép truy cập các thuộc tính và phương thức thao tác với thư mục.
+
+StreamReader và StreamWriter: Được sử dụng để đọc và ghi dữ liệu vào tệp văn bản.
+
+BinaryReader và BinaryWriter: Được sử dụng để đọc và ghi dữ liệu nhị phân.
+
+FileStream: Cung cấp một luồng (stream) để đọc và ghi dữ liệu đồng thời vào tệp, có thể là văn bản hoặc nhị phân.
+
+Path: Cung cấp các phương thức để thao tác với chuỗi đường dẫn tệp và thư mục.
+
+2. Đọc và Ghi Tệp Văn Bản
+2.1. Đọc Tệp Văn Bản
+Cách 1: Sử dụng File.ReadAllText và File.ReadAllLines
+File.ReadAllText: Đọc toàn bộ nội dung của tệp văn bản thành một chuỗi duy nhất.
+
+File.ReadAllLines: Đọc toàn bộ nội dung của tệp thành một mảng các chuỗi (mỗi dòng là một phần tử).
+
+string path = "example.txt";
+ 
+// Đọc toàn bộ nội dung tệp thành một chuỗi
+string content = File.ReadAllText(path);
+Console.WriteLine(content);
+ 
+// Đọc từng dòng của tệp
+string[] lines = File.ReadAllLines(path);
+foreach (string line in lines)
+{
+    Console.WriteLine(line);
+}
+Cách 2: Sử dụng StreamReader
+using (StreamReader reader = new StreamReader("example.txt"))
+{
+    string line;
+    while ((line = reader.ReadLine()) != null)
+    {
+        Console.WriteLine(line);
+    }
+}
+2.2 Ghi Tệp Văn Bản
+Cách 1: Sử dụng File.WriteAllText và File.WriteAllLines
+File.WriteAllText: Ghi một chuỗi vào tệp, nếu tệp đã tồn tại, nó sẽ ghi đè.
+
+File.WriteAllLines: Ghi một mảng chuỗi vào tệp (mỗi chuỗi là một dòng).
+
+string path = "example.txt";
+ 
+// Ghi đè nội dung vào tệp
+File.WriteAllText(path, "This is an example text.");
+ 
+// Ghi từng dòng vào tệp
+string[] lines = { "Line 1", "Line 2", "Line 3" };
+File.WriteAllLines(path, lines);
+Cách 2: Sử dụng StreamWriter
+using (StreamWriter writer = new StreamWriter("example.txt"))
+{
+    writer.WriteLine("This is a line of text.");
+    writer.WriteLine("This is another line.");
+}
+3. Đọc và Ghi Dữ Liệu Nhị Phân
+3.1 Sử dụng BinaryReader và BinaryWriter
+BinaryReader: Đọc dữ liệu nhị phân từ một tệp.
+
+BinaryWriter: Ghi dữ liệu nhị phân vào một tệp.
+
+Ghi dữ liệu nhị phân vào tệp
+using (BinaryWriter writer = new BinaryWriter(File.Open("binaryfile.dat", FileMode.Create)))
+{
+    writer.Write(1.25);       // Ghi một số thực
+    writer.Write("Hello");     // Ghi một chuỗi
+    writer.Write(true);        // Ghi một giá trị boolean
+}
+Đọc dữ liệu nhị phân từ tệp
+using (BinaryReader reader = new BinaryReader(File.Open("binaryfile.dat", FileMode.Open)))
+{
+    double number = reader.ReadDouble();
+    string text = reader.ReadString();
+    bool flag = reader.ReadBoolean();
+ 
+    Console.WriteLine($"Number: {number}, Text: {text}, Flag: {flag}");
+}
+4. Sử dụng FileStream để Đọc và Ghi Tệp
+FileStream cung cấp một luồng cho phép đọc và ghi dữ liệu một cách linh hoạt, 
+có thể áp dụng cho cả văn bản và dữ liệu nhị phân.
+
+Ghi Dữ Liệu Bằng FileStream
+using (FileStream fs = new FileStream("file.txt", FileMode.Create))
+{
+    byte[] info = new UTF8Encoding(true).GetBytes("This is some text.");
+    fs.Write(info, 0, info.Length);
+}
+Đọc Dữ Liệu Bằng FileStream
+using (FileStream fs = new FileStream("file.txt", FileMode.Open, FileAccess.Read))
+{
+    byte[] bytes = new byte[fs.Length];
+    int numBytesToRead = (int)fs.Length;
+    int numBytesRead = 0;
+ 
+    while (numBytesToRead > 0)
+    {
+        int n = fs.Read(bytes, numBytesRead, numBytesToRead);
+ 
+        if (n == 0)
+            break;
+ 
+        numBytesRead += n;
+        numBytesToRead -= n;
+    }
+    Console.WriteLine(Encoding.UTF8.GetString(bytes));
+}
+5. Kiểm Tra Sự Tồn Tại của Tệp hoặc Thư Mục
+File.Exists: Kiểm tra xem tệp có tồn tại không.
+
+Directory.Exists: Kiểm tra xem thư mục có tồn tại không.
+
+if (File.Exists("example.txt"))
+{
+    Console.WriteLine("File exists.");
+}
+else
+{
+    Console.WriteLine("File does not exist.");
+}
+ 
+if (Directory.Exists("exampleFolder"))
+{
+    Console.WriteLine("Directory exists.");
+}
+else
+{
+    Console.WriteLine("Directory does not exist.");
+}
+6. Xóa, Di Chuyển và Sao Chép Tệp
+File.Delete: Xóa tệp.
+
+File.Move: Di chuyển hoặc đổi tên tệp.
+
+File.Copy: Sao chép tệp.
+
+// Xóa tệp
+File.Delete("example.txt");
+ 
+// Di chuyển tệp
+File.Move("example.txt", "newFolder/example.txt");
+ 
+// Sao chép tệp
+File.Copy("example.txt", "copy_example.txt");
+7. Đọc và Ghi Tệp Không Đồng Bộ
+Trong các ứng dụng lớn, việc đọc và ghi tệp có thể mất thời gian, đặc biệt khi tệp lớn. Trong các trường hợp này, 
+việc đọc/ghi không đồng bộ sẽ giúp tránh làm treo ứng dụng.
+
+// Ghi không đồng bộ
+await File.WriteAllTextAsync("example.txt", "This is asynchronous text writing.");
+ 
+// Đọc không đồng bộ
+string content = await File.ReadAllTextAsync("example.txt");
+Console.WriteLine(content);
+8. Thao Tác với Đường Dẫn Bằng Path
+Lớp Path cung cấp các phương thức tiện ích để thao tác với chuỗi đường dẫn tệp và thư mục.
+
+string fullPath = @"C:\example\file.txt";
+ 
+// Lấy tên tệp
+string fileName = Path.GetFileName(fullPath); // Kết quả: file.txt
+ 
+// Lấy tên tệp không có phần mở rộng
+string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fullPath); // Kết quả: file
+ 
+// Lấy phần mở rộng
+string extension = Path.GetExtension(fullPath); // Kết quả: .txt
+ 
+// Lấy thư mục
+string directory = Path.GetDirectoryName(fullPath); // Kết quả: C:\example
+Tổng kết
+System.IO trong C# cung cấp các công cụ mạnh mẽ để thực hiện các thao tác file I/O như đọc, ghi dữ liệu văn bản và nhị phân, 
+kiểm tra sự tồn tại của tệp/thư mục, và thực hiện các thao tác không đồng bộ.

@@ -1,0 +1,175 @@
+Kiến thức chi tiết về biểu thức chính quy
+Biểu thức chính quy (Regular Expression - Regex) trong C# được sử dụng để tìm kiếm, khớp, và xử lý chuỗi văn bản theo các mẫu (pattern) phức tạp. 
+C# hỗ trợ biểu thức chính quy thông qua lớp Regex trong không gian tên System.Text.RegularExpressions.
+
+1. Khởi tạo Regex trong C#
+Trong C#, bạn có thể tạo biểu thức chính quy bằng cách khởi tạo đối tượng Regex hoặc sử dụng các phương thức tĩnh của lớp Regex.
+
+Cách Khởi tạo Regex
+Khởi tạo bằng đối tượng Regex:
+
+Regex regex = new Regex(pattern);
+Sử dụng phương thức tĩnh của Regex:
+
+bool isMatch = Regex.IsMatch(input, pattern);
+2. Các Thành phần Cơ bản trong Biểu thức Chính quy
+2.1 Ký tự đặc biệt
+. : Đại diện cho bất kỳ ký tự nào ngoại trừ ký tự xuống dòng.
+
+\d : Đại diện cho một chữ số (0-9).
+
+\D : Đại diện cho bất kỳ ký tự nào không phải là chữ số.
+
+\w : Đại diện cho bất kỳ ký tự chữ cái, chữ số, hoặc dấu gạch dưới.
+
+\W : Đại diện cho bất kỳ ký tự nào không phải chữ cái, chữ số, hoặc dấu gạch dưới.
+
+\s : Đại diện cho khoảng trắng (bao gồm khoảng trống, tab, và xuống dòng).
+
+\S : Đại diện cho bất kỳ ký tự nào không phải là khoảng trắng.
+
+2.2 Toán tử lặp lại
+* : Khớp với 0 hoặc nhiều lần xuất hiện của ký tự hoặc nhóm trước nó.
+
++ : Khớp với 1 hoặc nhiều lần xuất hiện của ký tự hoặc nhóm trước nó.
+
+? : Khớp với 0 hoặc 1 lần xuất hiện của ký tự hoặc nhóm trước nó.
+
+{n} : Khớp chính xác n lần xuất hiện của ký tự hoặc nhóm trước nó.
+
+{n,} : Khớp ít nhất n lần xuất hiện.
+
+{n,m} : Khớp từ n đến m lần xuất hiện.
+
+2.3 Nhóm và lựa chọn
+( ) : Đặt một nhóm các ký tự lại với nhau.
+
+| : Toán tử "hoặc".
+
+2.4 Biên (Boundary)
+^ : Khớp với vị trí đầu dòng.
+
+$ : Khớp với vị trí cuối dòng.
+
+\b : Khớp với ranh giới từ (word boundary).
+
+\B : Khớp với vị trí không phải ranh giới từ.
+
+3. Các Phương thức Chính của Lớp Regex
+3.1 IsMatch
+IsMatch kiểm tra xem chuỗi đầu vào có khớp với mẫu regex hay không.
+
+string input = "Hello123";
+string pattern = @"\d+";
+ 
+bool hasDigits = Regex.IsMatch(input, pattern); // Kết quả: true
+3.2 Match
+Match tìm kiếm chuỗi đầu vào theo mẫu và trả về đối tượng Match chứa thông tin về kết quả đầu tiên khớp với mẫu.
+
+string input = "Today is 2024-10-31";
+string pattern = @"\d{4}-\d{2}-\d{2}";
+ 
+Match match = Regex.Match(input, pattern);
+if (match.Success)
+{
+    Console.WriteLine("Date found: " + match.Value); // Kết quả: Date found: 2024-10-31
+}
+3.3 Matches
+Matches trả về tất cả các kết quả khớp với mẫu trong chuỗi đầu vào.
+
+string input = "Price: 100, Discount: 20";
+string pattern = @"\d+";
+ 
+MatchCollection matches = Regex.Matches(input, pattern);
+foreach (Match match in matches)
+{
+    Console.WriteLine("Found number: " + match.Value);
+}
+// Kết quả:
+// Found number: 100
+// Found number: 20
+3.4 Replace
+Replace thay thế các phần khớp trong chuỗi đầu vào bằng chuỗi thay thế.
+
+string input = "apple banana apple";
+string pattern = "apple";
+ 
+string result = Regex.Replace(input, pattern, "orange");
+// Kết quả: result = "orange banana orange"
+3.5 Split
+Split chia chuỗi thành các phần tử dựa trên mẫu regex.
+
+string input = "apple, banana; orange";
+string pattern = @"[,;]";
+ 
+string[] result = Regex.Split(input, pattern);
+foreach (string fruit in result)
+{
+    Console.WriteLine(fruit.Trim());
+}
+// Kết quả:
+// apple
+// banana
+// orange
+4. Các Ví Dụ Thực Tế
+4.1 Kiểm tra định dạng email
+ãstring email = "example@domain.com";
+string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+ 
+bool isValidEmail = Regex.IsMatch(email, pattern);
+Console.WriteLine(isValidEmail); // true
+4.2 Kiểm tra số điện thoại
+Kiểm tra số điện thoại định dạng Việt Nam (10 chữ số bắt đầu bằng 03, 05, 07, 08 hoặc 09).
+
+string phone = "0912345678";
+string pattern = @"^(03|05|07|08|09)\d{8}$";
+ 
+bool isValidPhone = Regex.IsMatch(phone, pattern);
+Console.WriteLine(isValidPhone); // true
+4.3 Tách các từ trong chuỗi
+Tách các từ trong chuỗi dựa trên khoảng trắng hoặc dấu câu.
+
+string input = "Hello, how are you?";
+string pattern = @"[^\w]+";
+ 
+string[] words = Regex.Split(input, pattern);
+foreach (string word in words)
+{
+    Console.WriteLine(word);
+}
+// Kết quả:
+// Hello
+// how
+// are
+// you
+4.4 Lấy tất cả số trong chuỗi
+string input = "I have 2 apples and 10 oranges.";
+string pattern = @"\d+";
+ 
+MatchCollection matches = Regex.Matches(input, pattern);
+foreach (Match match in matches)
+{
+    Console.WriteLine("Found number: " + match.Value);
+}
+// Kết quả:
+// Found number: 2
+// Found number: 10
+5. Các Tùy Chọn trong Regex
+Lớp RegexOptions cung cấp các tùy chọn nâng cao cho biểu thức chính quy:
+
+RegexOptions.IgnoreCase: Không phân biệt chữ hoa chữ thường.
+
+RegexOptions.Multiline: Cho phép ^ và $ khớp với vị trí đầu và cuối của từng dòng.
+
+RegexOptions.Singleline: Cho phép . khớp với mọi ký tự, bao gồm ký tự xuống dòng.
+
+Ví dụ:
+
+string input = "Hello\nWorld";
+string pattern = @"^World$";
+ 
+bool isMatch = Regex.IsMatch(input, pattern, RegexOptions.Multiline);
+Console.WriteLine(isMatch); // true
+6. Tổng kết
+Biểu thức chính quy trong C# rất mạnh mẽ và có thể được sử dụng cho nhiều mục đích khác nhau, như kiểm tra định dạng, tách chuỗi, tìm kiếm và thay thế. 
+Các công cụ chính là lớp Regex cùng với các phương thức IsMatch, Match, Matches, Replace, và Split. Việc sử dụng thành thạo Regex giúp viết mã hiệu quả và dễ dàng xử lý chuỗi phức tạp.

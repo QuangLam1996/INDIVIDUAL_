@@ -1,0 +1,43 @@
+1. public
+Định nghĩa: Mức độ truy cập public cho phép mọi đối tượng bên ngoài lớp hoặc assembly đều có thể truy cập đến thành viên public này.
+
+Phạm vi truy cập: Có thể truy cập từ bất kỳ đâu trong chương trình, bất kể lớp hoặc assembly nào.
+
+Ứng dụng: Thường dùng cho các lớp hoặc phương thức mà bạn muốn cho phép mọi nơi trong chương trình truy cập, ví dụ như các API hoặc thư viện.
+
+2. protected
+Định nghĩa: Mức độ truy cập protected chỉ cho phép lớp hiện tại và các lớp kế thừa (subclass) truy cập.
+
+Phạm vi truy cập: Có thể truy cập từ lớp định nghĩa và từ các lớp con kế thừa lớp này, ngay cả khi chúng ở assembly khác.
+
+Ứng dụng: Dùng để giới hạn truy cập thành viên cho lớp hiện tại và các lớp con, đảm bảo tính kế thừa nhưng vẫn bảo vệ thông tin nội bộ.
+
+3. internal
+Định nghĩa: Mức độ truy cập internal chỉ cho phép truy cập trong cùng một assembly.
+
+Phạm vi truy cập: Chỉ có thể truy cập từ bên trong cùng một assembly, không thể truy cập từ các assembly khác.
+
+Ứng dụng: Dùng cho các thành phần nội bộ của một ứng dụng hoặc thư viện, giúp ngăn chặn các thành phần không mong muốn bị truy cập từ bên ngoài.
+
+4. private
+Định nghĩa: Mức độ truy cập private là mức độ giới hạn nhất, chỉ cho phép truy cập trong nội bộ lớp định nghĩa.
+
+Phạm vi truy cập: Chỉ có thể truy cập từ bên trong cùng một lớp, ngay cả lớp kế thừa cũng không thể truy cập.
+
+Ứng dụng: Thường dùng để bảo vệ dữ liệu hoặc phương thức chỉ dùng trong nội bộ lớp.
+
+5. protected internal
+Định nghĩa: Mức độ truy cập protected internal là sự kết hợp giữa protected và internal, cho phép truy cập từ lớp con hoặc từ bất kỳ nơi nào trong cùng assembly.
+
+Phạm vi truy cập: Có thể truy cập từ lớp con và từ bất kỳ lớp nào trong cùng assembly, nhưng không thể truy cập từ một lớp không liên quan trong một assembly khác.
+
+Ứng dụng: Dùng khi bạn muốn thành viên chỉ được truy cập từ lớp con hoặc từ các lớp khác trong cùng assembly, nhưng không muốn cho phép truy cập từ bên ngoài assembly.
+
+
+ 			Truy cập trong class			Truy cập trong assembly				Truy cập từ ngoài assembly
+private			✅		❌									❌
+protected		✅ (class + subclass)			❌						✅ (nhưng chỉ subclass)
+internal		✅					✅						❌
+public			✅					✅						✅
+protected internal	✅					✅						✅ (chỉ subclass)
+private protected	✅ (class + subclass cùng assembly)	✅ (nhưng chỉ subclass trong assembly)		❌

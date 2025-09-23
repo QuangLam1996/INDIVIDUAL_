@@ -1,0 +1,16 @@
+Var:
+
+Kiểu xác định tại compile-time (biên dịch).
+
+Khi bạn dùng var, trình biên dịch sẽ suy luận kiểu dựa trên giá trị gán ban đầu.
+
+Sau khi đã xác định, kiểu này không thể thay đổi.
+
+
+Dynamic:
+
+Kiểu xác định tại runtime (chạy chương trình).
+
+Biến khai báo với dynamic có thể nhận bất kỳ kiểu dữ liệu nào, và kiểu đó có thể thay đổi trong quá trình chạy.
+
+Trình biên dịch không kiểm tra lỗi cú pháp liên quan đến kiểu; lỗi sẽ phát sinh khi chạy (runtime).

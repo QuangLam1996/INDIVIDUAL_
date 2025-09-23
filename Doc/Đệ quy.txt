@@ -1,0 +1,127 @@
+Đệ quy (Recursion)
+Đệ quy trong C# là một kỹ thuật trong đó một hàm tự gọi lại chính nó, giúp giải quyết các bài toán phức tạp bằng cách chia nhỏ chúng thành các bài toán con có cấu trúc tương tự. 
+Để sử dụng đệ quy, cần có một "điểm dừng" (điều kiện dừng) để tránh việc hàm gọi lặp lại vô hạn.
+
+Dưới đây là một số ví dụ và giải thích về đệ quy trong C#:
+
+1. Ví dụ tính giai thừa sử dụng đệ quy
+Giai thừa của một số nguyên dương n được tính bằng tích của tất cả các số nguyên dương nhỏ hơn hoặc bằng n. Công thức giai thừa:
+
+n! = n × (n−1)!
+
+Cách làm:
+
+Nếu n=0, trả về 1 (điều kiện dừng).
+
+Ngược lại, trả về n × factorial(n−1).
+
+Code C#:
+
+using System;
+ 
+class Program
+{
+    static int Factorial(int n)
+    {
+        // Điều kiện dừng
+        if (n <= 1)
+            return 1;
+ 
+        // Gọi lại hàm Factorial đệ quy
+        return n * Factorial(n - 1);
+    }
+ 
+    static void Main()
+    {
+        Console.WriteLine("Giai thừa của 5 là: " + Factorial(5));
+    }
+}
+Kết quả:
+
+Khi chạy chương trình, kết quả sẽ là:
+
+Giai thừa của 5 là: 120
+2. Ví dụ về dãy Fibonacci sử dụng đệ quy
+Dãy Fibonacci là một dãy số bắt đầu với 0 và 1, trong đó mỗi số tiếp theo là tổng của hai số trước đó:
+
+F(n) = F(n−1) + F(n−2)
+
+Cách làm:
+
+Nếu n=0, trả về 0.
+
+Nếu n=1, trả về 1.
+
+Ngược lại, trả về F(n−1) + F(n−2).
+
+Code C#:
+
+using System;
+ 
+class Program
+{
+    static int Fibonacci(int n)
+    {
+        // Điều kiện dừng
+        if (n <= 1)
+            return n;
+ 
+        // Gọi lại hàm Fibonacci đệ quy
+        return Fibonacci(n - 1) + Fibonacci(n - 2);
+    }
+ 
+    static void Main()
+    {
+        Console.WriteLine("Số Fibonacci thứ 6 là: " + Fibonacci(6));
+    }
+}
+Kết quả:
+
+Khi chạy chương trình, kết quả sẽ là:
+
+Số Fibonacci thứ 6 là: 8
+3. Ví dụ về đệ quy để duyệt thư mục
+Một ứng dụng thực tế của đệ quy là duyệt qua các thư mục và tệp tin trong hệ thống tệp.
+
+Code C#:
+
+using System;
+using System.IO;
+ 
+class Program
+{
+    static void TraverseDirectory(string path)
+    {
+        // In ra thư mục hiện tại
+        Console.WriteLine("Thư mục: " + path);
+ 
+        // Lặp qua tất cả các tệp trong thư mục hiện tại
+        foreach (string file in Directory.GetFiles(path))
+        {
+            Console.WriteLine("Tệp: " + file);
+        }
+ 
+        // Lặp qua tất cả các thư mục con và gọi lại hàm đệ quy
+        foreach (string dir in Directory.GetDirectories(path))
+        {
+            TraverseDirectory(dir);
+        }
+    }
+ 
+    static void Main()
+    {
+        // Duyệt từ thư mục gốc
+        TraverseDirectory("C:\\YourFolderPath");
+    }
+}
+4. Chú ý khi sử dụng đệ quy
+Điều kiện dừng: Luôn đảm bảo hàm có điều kiện dừng để tránh vòng lặp vô hạn.
+
+Chi phí bộ nhớ: Đệ quy có thể gây tốn bộ nhớ vì mỗi lần gọi hàm sẽ thêm một khung ngăn xếp (stack frame). 
+Đối với các bài toán có độ sâu đệ quy lớn, nên dùng vòng lặp hoặc tối ưu đệ quy đuôi (tail recursion) nếu ngôn ngữ hỗ trợ.
+
+Thay thế bằng vòng lặp: Đệ quy thường dễ hiểu hơn nhưng có thể thay thế bằng vòng lặp trong một số trường hợp để tiết kiệm bộ nhớ.
+
+5. Đệ quy đuôi (Tail Recursion)
+Đệ quy đuôi là kiểu đệ quy trong đó hàm trả về kết quả của một lời gọi đệ quy khác mà không cần phải thực hiện thêm công việc nào. 
+Tuy nhiên, C# không tối ưu hóa đệ quy đuôi, vì vậy đệ quy đuôi không giúp tiết kiệm bộ nhớ trong C# như một số ngôn ngữ khác.

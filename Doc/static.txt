@@ -1,0 +1,32 @@
+1. static với biến (static field)
+Biến static thuộc về lớp, không thuộc về bất kỳ đối tượng cụ thể nào.
+
+Có một phiên bản duy nhất của biến static cho tất cả các đối tượng của lớp đó.
+
+Dữ liệu của biến static được chia sẻ giữa tất cả các đối tượng, 
+vì vậy nếu thay đổi giá trị của biến static, thay đổi này sẽ có hiệu lực với tất cả các đối tượng.
+
+2. static với phương thức (static method)
+Phương thức static chỉ có thể truy cập các thành viên static khác trong lớp.
+
+Phương thức static có thể được gọi mà không cần tạo một đối tượng của lớp.
+
+3. static với thuộc tính (static property)
+Thuộc tính static là thuộc tính mà không cần đối tượng để truy cập 
+và có thể được dùng để truy xuất hoặc gán giá trị cho biến static một cách gián tiếp.
+
+4. static với lớp (static class)
+Lớp static không thể được khởi tạo bằng cách tạo đối tượng.
+
+Tất cả các thành viên bên trong lớp static phải là static.
+
+Lớp static thường được sử dụng để nhóm các phương thức tiện ích (utility) hoặc các hằng số (constants) mà không cần duy trì trạng thái.
+
+5. static Constructor (Hàm khởi tạo static)
+Hàm khởi tạo static được sử dụng để khởi tạo các thành viên static của lớp hoặc thực hiện các thao tác khởi tạo khi lớp lần đầu tiên được sử dụng.
+
+Hàm khởi tạo static chỉ chạy một lần duy nhất, khi lớp đó được truy cập lần đầu tiên.
+
+Hàm khởi tạo static không có tham số và không thể được gọi trực tiếp.
+
+Nếu lớp có thành viên static, thì nên sử dụng hàm khởi tạo static để thiết lập các giá trị ban đầu cho các thành viên static đó.
