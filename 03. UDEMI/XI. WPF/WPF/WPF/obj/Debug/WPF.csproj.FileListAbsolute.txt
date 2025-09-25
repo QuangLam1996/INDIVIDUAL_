@@ -14,3 +14,19 @@ F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.Core
 F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.exe
 F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.pdb
 F:\90. HOC TAP\01. THUC HANH\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.exe.config
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\bin\Debug\WPF.exe.config
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\bin\Debug\WPF.exe
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\bin\Debug\WPF.pdb
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.AssemblyReference.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.exe.config
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\MainWindow.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\App.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF_MarkupCompile.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF_MarkupCompile.lref
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\MainWindow.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.g.resources
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.Properties.Resources.resources
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.exe
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\03. UDEMI\XI. WPF\WPF\WPF\obj\Debug\WPF.pdb
