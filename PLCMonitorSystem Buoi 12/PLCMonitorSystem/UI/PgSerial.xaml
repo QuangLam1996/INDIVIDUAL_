@@ -14,7 +14,9 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        
         <Grid Grid.Column="0">
             <Grid.Resources>
                 <Style TargetType="Button">
@@ -70,11 +72,40 @@
                 <StackPanel>
                     <Button Name="btnMcOpen">MC Open</Button>
                     <Button Name="btnMcClose">MC Close</Button>
-                    <Button Name="btnReadWord">Read Word</Button>
                 </StackPanel>
             </ScrollViewer>
-
-
         </Grid>
+        <Grid Grid.Column="2">
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="15"></Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Background" Value="LightGray"></Setter>
+                    <Setter Property="FontSize" Value="40"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="15"></Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Background" Value="LightGray"></Setter>
+                    <Setter Property="FontSize" Value="40"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                </Style>
+            </Grid.Resources>
+
+            <ScrollViewer>
+                <StackPanel>
+                    <Button Name="btnEOpen">E.Open</Button>
+                    <Button Name="btnEClose">E.Close</Button>
+                    <TextBox Name="txtESend">.........</TextBox>
+                    <Button Name="btnESend">E.Send</Button>
+                    <TextBox Name="txtERecieve">..........</TextBox>
+                    <Button Name="btnERecieve">E.Recive</Button>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
     </Grid>
 </Page>

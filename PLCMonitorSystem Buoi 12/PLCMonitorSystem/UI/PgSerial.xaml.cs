@@ -27,6 +27,7 @@ namespace PLCMonitorSystem.UI
         //NonProcedure nonProtocol = new NonProcedure("COM1", 8, StopBits.One, Parity.Odd, 9600);
         NonProcedure nonProtocol = new NonProcedure();
         MC_Format5 mcFormat5 = new MC_Format5();
+        Ethernet ethernet = new Ethernet();
         public PgSerial()
         {
             InitializeComponent();
@@ -35,9 +36,44 @@ namespace PLCMonitorSystem.UI
             this.btnSend.Click += BtnSend_Click;
             this.btnRecieve.Click += BtnRecieve_Click;
 
+            this.btnEOpen.Click += BtnEOpen_Click;
+            this.btnEClose.Click += BtnEClose_Click;
+            this.btnESend.Click += BtnESend_Click;
+            this.btnERecieve.Click += BtnERecieve_Click;
+
             this.btnMcOpen.Click += BtnMcOpen_Click;
             this.btnMcClose.Click += BtnMcClose_Click;
-            this.btnReadWord.Click += BtnReadWord_Click;
+        }
+
+        private void BtnERecieve_Click(object sender, RoutedEventArgs e)
+        {
+            List<byte> data = new List<byte>();
+            ethernet.RecieveData(out data);
+            txtERecieve.Text = Encoding.UTF8.GetString(data.ToArray());
+        }
+
+        private void BtnESend_Click(object sender, RoutedEventArgs e)
+        {
+            string txtdata = txtESend.Text;
+            byte[] data = Encoding.UTF8.GetBytes(txtdata);
+            ethernet.SendData(data);
+        }
+
+        private void BtnEClose_Click(object sender, RoutedEventArgs e)
+        {
+            int kq = ethernet.Disconnect();
+
+            if (kq == 0) { this.btnEOpen.ClearValue(BackgroundProperty); }
+
+            ethernet.Disconnect();
+        }
+
+        private void BtnEOpen_Click(object sender, RoutedEventArgs e)
+        {
+            int kq = ethernet.Connect();
+
+            if (kq == 0) { this.btnEOpen.Background = Brushes.Green; }
+
         }
 
         private void BtnReadWord_Click(object sender, RoutedEventArgs e)
@@ -62,7 +98,6 @@ namespace PLCMonitorSystem.UI
             if (kq == 0)
             {
                 this.btnMcOpen.Background = Brushes.Green;
-                MessageBox.Show("OPEN GOOD");
             }
             else
             {

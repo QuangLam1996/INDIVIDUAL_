@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="LIB\MC_Format5.cs" />
     <Compile Include="LIB\NonProcedure.cs" />
+    <Compile Include="LIB\Server.cs" />
     <Compile Include="LIB\Socket.cs" />
     <Compile Include="UI\PgAlarm.xaml.cs">
       <DependentUpon>PgAlarm.xaml</DependentUpon>

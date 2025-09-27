@@ -23,7 +23,6 @@ namespace PLCMonitorSystem.LIB
         {
             this.IpAddress = "127.0.0.1";
             this.Port = 6000;
-
         }
         public Ethernet(string ipAddress, int port)
         {
@@ -60,7 +59,7 @@ namespace PLCMonitorSystem.LIB
 
             return kq;
         }
-        public int Close()
+        public int Disconnect()
         {
             int kq = -1;
             // B1: Kiểm tra Socket đã khởi tạo
@@ -105,9 +104,10 @@ namespace PLCMonitorSystem.LIB
 
             return kq;
         }
-        public int RecieveData( out byte[] data)
+        public int RecieveData(out List<byte> data)
         {
             int kq = -1;
+            data = new List<byte>();
             // B1: Kiểm tra đã khởi tạo 
             if (sock == null)
             {
@@ -121,7 +121,10 @@ namespace PLCMonitorSystem.LIB
             // B3: Send
             try
             {
-                sock.Send(data);
+                byte[] arrbyte = new byte[1024];
+                sock.Receive(arrbyte);
+                data.AddRange(arrbyte);
+                kq = 0;
             }
             catch (Exception err) { }
 
