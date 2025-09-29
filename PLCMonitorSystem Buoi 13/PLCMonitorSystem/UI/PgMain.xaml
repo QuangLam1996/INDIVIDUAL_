@@ -1,0 +1,53 @@
+﻿<Page x:Class="PLCMonitorSystem.UI.PgMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PLCMonitorSystem.UI"
+      mc:Ignorable="d" 
+      d:DesignHeight="970" d:DesignWidth="1920"
+      Title="PgMain">
+
+    <Grid Background="AliceBlue">
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            </Style>
+
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <ScrollViewer>
+                <StackPanel x:Name="stp1">
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Column="1">
+            <ScrollViewer>
+                <StackPanel>
+                    <Button x:Name="btnTang" Height="50"
+                            FontSize="30"
+                            Margin="20 20 20 20">Tang</Button>
+                    <Button x:Name="btnGiam" Height="50"
+                            FontSize="30"
+                            Margin="20 20 20 20">Giam</Button>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Column="2">
+            <ScrollViewer>
+                <StackPanel x:Name="stp2">
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

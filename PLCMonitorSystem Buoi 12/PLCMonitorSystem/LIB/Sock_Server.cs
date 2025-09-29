@@ -5,82 +5,68 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
-using System.Runtime.CompilerServices;
 
 namespace PLCMonitorSystem.LIB
 {
-    public class Ethernet
+    public class EthernetServer
     {
-        //Field & Property
+        // Property
         Socket sock;
-        string ipAddress;
+        TcpListener listener;
+        string ipAdress;
         int port;
 
-        public string IpAddress { get => ipAddress; set => ipAddress = value; }
+        public string IpAdress { get => ipAdress; set => ipAdress = value; }
         public int Port { get => port; set => port = value; }
 
-        public Ethernet()
+        // Method
+        public EthernetServer()
         {
-            this.IpAddress = "127.0.0.1";
+            this.IpAdress = "127.0.0.1";
             this.Port = 6000;
         }
-        public Ethernet(string ipAddress, int port)
-        {
-            this.IpAddress = ipAddress;
-            this.Port = port;
 
-        }
-
-        // Connect
-        public int Connect()
+        public int Listen()
         {
             int kq = -1;
-            // B1: Kiểm tra Socket đã khởi tạo
-            if (sock == null)
+            // B1: Kiểm tra khởi tạo
+            if (listener == null)
             {
-                sock = new Socket(SocketType.Stream, ProtocolType.Tcp);
+                listener = new TcpListener(IPAddress.Parse(this.IpAdress), Port);
             }
-            // B2: Kiểm tra đã kết nối
-            if (sock.Connected == true)
-            {
-                kq = 0;
-                return kq;
-            }
-            // B3: Kết nối
+
             try
             {
-                sock.Connect(this.IpAddress, this.Port);
-                if (sock.Connected == true)
-                {
-                    kq = 0;
-                }
+                listener.Start();
+                sock = listener.AcceptSocket();
+                kq = 0;
             }
             catch (Exception err) { }
 
+
             return kq;
         }
+
         public int Disconnect()
         {
             int kq = -1;
-            // B1: Kiểm tra Socket đã khởi tạo
-            if (sock == null)
-            {
-                return kq;
-            }
-            if (sock.Connected == false)
+            if (listener == null)
             {
                 return kq;
             }
             try
             {
-                sock.Disconnect(false);
+                sock.Close();
                 sock = null;
+                listener.Stop();
+                listener = null;
                 kq = 0;
             }
             catch (Exception err) { }
 
             return kq;
         }
+
         public int SendData(byte[] data)
         {
             int kq = -1;

@@ -129,7 +129,6 @@ F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\bin\Debug
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.AssemblyReference.cache
-F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\Style_\Button.baml
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\Style_\Label.baml
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
@@ -157,3 +156,4 @@ F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.CoreCompileInputs.cache
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 12\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config
