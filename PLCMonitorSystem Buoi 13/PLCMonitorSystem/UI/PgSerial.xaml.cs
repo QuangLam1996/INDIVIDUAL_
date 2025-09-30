@@ -29,6 +29,7 @@ namespace PLCMonitorSystem.UI
         MC_Format5 mcFormat5 = new MC_Format5();
         EthernetClient ethernetClient = new EthernetClient();
         EthernetServer ethernetServer = new EthernetServer();
+        Sock_SLMP sMLP = new Sock_SLMP();
         public PgSerial()
         {
             InitializeComponent();
@@ -49,6 +50,68 @@ namespace PLCMonitorSystem.UI
 
             this.btnMcOpen.Click += BtnMcOpen_Click;
             this.btnMcClose.Click += BtnMcClose_Click;
+
+            this.btnSMLPOpen.Click += BtnSMLPOpen_Click;
+            this.btnSMLPClose.Click += BtnSMLPClose_Click;
+            this.btnSMLPReadWord.Click += BtnSMLPReadWord_Click;
+            this.btnSMLPReadDWord.Click += BtnSMLPReadDWord_Click;
+            this.btnSMLPReadFloat.Click += BtnSMLPReadFloat_Click;
+
+            this.btnSMLPReadBit.Click += BtnSMLPReadBit_Click;
+            this.btnSMLPReadMultiBit.Click += BtnSMLPReadMultiBit_Click;
+        }
+
+        private void BtnSMLPReadMultiBit_Click(object sender, RoutedEventArgs e)
+        {
+            List<bool> lstBit = sMLP.ReadMultiBit(Device.M, 100, 5);
+            foreach(var item in lstBit)
+            {
+                MessageBox.Show(item.ToString());
+            }
+
+
+        }
+
+        private void BtnSMLPReadBit_Click(object sender, RoutedEventArgs e)
+        {
+            bool kq = sMLP.ReadBit(Device.M, 100);
+            MessageBox.Show(kq.ToString());
+        }
+
+        private void BtnSMLPReadFloat_Click(object sender, RoutedEventArgs e)
+        {
+            float kq;
+            kq = sMLP.ReadFLoat(Device.D, 100);
+            txtSMLPRecieve.Text = kq.ToString();
+
+        }
+
+        private void BtnSMLPReadDWord_Click(object sender, RoutedEventArgs e)
+        {
+            int kq;
+            kq = sMLP.ReadDWord(Device.D, 100);
+            txtSMLPRecieve.Text = kq.ToString();
+
+        }
+
+        private void BtnSMLPReadWord_Click(object sender, RoutedEventArgs e)
+        {
+            short kq;
+            kq = sMLP.ReadWord(Device.D, 100);
+            txtSMLPRecieve.Text = kq.ToString();
+        }
+
+        private void BtnSMLPClose_Click(object sender, RoutedEventArgs e)
+        {
+            int kq = sMLP.Disconnect();
+
+            if (kq == 0) { this.btnSEOpen.ClearValue(BackgroundProperty); }
+        }
+
+        private void BtnSMLPOpen_Click(object sender, RoutedEventArgs e)
+        {
+            int kq = sMLP.Connect();
+            if (kq == 0) { this.btnSMLPOpen.Background = Brushes.Green; }
         }
 
         #region Socket Client
@@ -72,7 +135,6 @@ namespace PLCMonitorSystem.UI
 
             if (kq == 0) { this.btnSEOpen.ClearValue(BackgroundProperty); }
 
-            ethernetServer.Disconnect();
         }
 
         private void BtnSEOpen_Click(object sender, RoutedEventArgs e)
@@ -104,7 +166,6 @@ namespace PLCMonitorSystem.UI
 
             if (kq == 0) { this.btnEOpen.ClearValue(BackgroundProperty); }
 
-            ethernetClient.Disconnect();
         }
 
         private void BtnEOpen_Click(object sender, RoutedEventArgs e)

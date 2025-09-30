@@ -10,8 +10,8 @@ Buoi 09_Done
 Buoi 10_Done
 Buoi 11_Done
 Buoi 12_Done
-Buoi 13_Doing
-Buoi 14_Wait
+Buoi 13_Done
+Buoi 14_Doing [1:56]
 Buoi 15_Wait
 Buoi 16_Wait
 Buoi 17_Wait

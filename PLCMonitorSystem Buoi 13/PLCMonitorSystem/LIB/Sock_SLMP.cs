@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
 
 namespace PLCMonitorSystem.LIB
 {
@@ -131,65 +132,790 @@ namespace PLCMonitorSystem.LIB
             }
 
             // B3: Chuẩn bị data
-            List<byte> lstDensData = new List<byte>();
+            List<byte> lstSendData = new List<byte>();
             // 3.1 Header: Đã tự động thêm vào <Skip>
             // 3.2 Subheader [2byte]
-            lstDensData.Add(0x50);
-            lstDensData.Add(0x00);
+            lstSendData.Add(0x50);
+            lstSendData.Add(0x00);
 
             // 3.3 Access Route
             // 3.3.1 Network No
-            lstDensData.Add((byte)this.NetWorkNo);
+            lstSendData.Add((byte)this.NetWorkNo);
             // 3.3.2 PC No
-            lstDensData.Add((byte)this.PcNo);
+            lstSendData.Add((byte)this.PcNo);
             // 3.3.3 Request Destination Module IO
-            lstDensData.Add(0xFF);
-            lstDensData.Add(0x03);
+            lstSendData.Add(0xFF);
+            lstSendData.Add(0x03);
             // 3.3.4 Request Destination Module Station
-            lstDensData.Add((byte)this.StationNo);
+            lstSendData.Add((byte)this.StationNo);
 
             // 3.4 Request Data Length [byte7 - byte8]
-            lstDensData.Add(0x00);
-            lstDensData.Add(0x00);
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
 
             // 3.5 Monitoring Time
-            lstDensData.Add(0x10);
-            lstDensData.Add(0x00);
+            lstSendData.Add(0x10);
+            lstSendData.Add(0x00);
 
             // 3.6 Request Data
             // 3.6.1 Command [0401]
-            lstDensData.Add(0x01);
-            lstDensData.Add(0x04);
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x04);
             // 3.6.2 Sub command [0000]
-            lstDensData.Add(0x00);
-            lstDensData.Add(0x00);
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
             // 3.6.3 Head Device Number
             byte[] headDevice = BitConverter.GetBytes(_devNumber);
-            lstDensData.Add(headDevice[0]);
-            lstDensData.Add(headDevice[1]);
-            lstDensData.Add(headDevice[2]);
+            lstSendData.Add(headDevice[0]);
+            lstSendData.Add(headDevice[1]);
+            lstSendData.Add(headDevice[2]);
             // 3.6.4 Device Code
-            lstDensData.Add((byte)_devCode);
+            lstSendData.Add((byte)_devCode);
             // 3.6.5 Number Of Device Point
             int devPoint = 1;
             byte[] arrDevPoint = BitConverter.GetBytes(devPoint);
-            lstDensData.Add(arrDevPoint[0]);
-            lstDensData.Add(arrDevPoint[1]);
+            lstSendData.Add(arrDevPoint[0]);
+            lstSendData.Add(arrDevPoint[1]);
 
-            // 3.7 Send Data
-            sock.Send
+            // 3.7 Tính lại Request Data Length
+            int reDataL = lstSendData.Count - 2 - 5 - 2;
+            byte[] arrReqData = BitConverter.GetBytes(reDataL);
+            lstSendData[7] = arrReqData[0];
+            lstSendData[8] = arrReqData[1];
+            // B4: Send Data
+            sock.Send(lstSendData.ToArray());
 
+            // B5: Recieve Data
+            byte[] arrRcv = new byte[512];
+            List<byte> lstRcv = new List<byte>();
+            sock.Receive(arrRcv);
+            lstRcv.AddRange(arrRcv);
 
+            // B6: Phân tích data nhận về
+            // 6.1 Sub Header
+            if (lstRcv[0] != 0xD0 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
 
+            // 6.2 Access Route
+            // 6.2.1 Network No
+            if (lstRcv[0] != (byte)this.NetWorkNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.2 PC No
+            if (lstRcv[0] != (byte)this.PcNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.3 Request Destination Module IO
+            if (lstRcv[0] != 0xFF || lstRcv[1] != 0x03)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+            // 6.2.4 Request Station No
+            if (lstRcv[0] != (byte)this.StationNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
 
+            // 6.3 Request Data Length
+            short reqDataLength = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            if (reqDataLength < 2)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
 
+            // 6.4 End Code
+            if (lstRcv[0] != 0x00 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
 
-
-
-
-
+            // 6.5 Data
+            kq = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
             return kq;
         }
+        public int ReadDWord(Device _devCode, int _devNumber)
+        {
+            int kq = 0;
+            // B1: Kiểm tra đã khởi tạo
+            if (sock == null)
+            {
+                return kq;
+            }
+            // B2: Kiểm tra đã kết nối
+            if (sock.Connected == false)
+            {
+                return kq;
+            }
+
+            // B3: Chuẩn bị data
+            List<byte> lstSendData = new List<byte>();
+            // 3.1 Header: Đã tự động thêm vào <Skip>
+            // 3.2 Subheader [2byte]
+            lstSendData.Add(0x50);
+            lstSendData.Add(0x00);
+
+            // 3.3 Access Route
+            // 3.3.1 Network No
+            lstSendData.Add((byte)this.NetWorkNo);
+            // 3.3.2 PC No
+            lstSendData.Add((byte)this.PcNo);
+            // 3.3.3 Request Destination Module IO
+            lstSendData.Add(0xFF);
+            lstSendData.Add(0x03);
+            // 3.3.4 Request Destination Module Station
+            lstSendData.Add((byte)this.StationNo);
+
+            // 3.4 Request Data Length [byte7 - byte8]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+
+            // 3.5 Monitoring Time
+            lstSendData.Add(0x10);
+            lstSendData.Add(0x00);
+
+            // 3.6 Request Data
+            // 3.6.1 Command [0401]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x04);
+            // 3.6.2 Sub command [0000]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+            // 3.6.3 Head Device Number
+            byte[] headDevice = BitConverter.GetBytes(_devNumber);
+            lstSendData.Add(headDevice[0]);
+            lstSendData.Add(headDevice[1]);
+            lstSendData.Add(headDevice[2]);
+            // 3.6.4 Device Code
+            lstSendData.Add((byte)_devCode);
+            // 3.6.5 Number Of Device Point
+            int devPoint = 2;
+            byte[] arrDevPoint = BitConverter.GetBytes(devPoint);
+            lstSendData.Add(arrDevPoint[0]);
+            lstSendData.Add(arrDevPoint[1]);
+
+            // 3.7 Tính lại Request Data Length
+            int reDataL = lstSendData.Count - 2 - 5 - 2;
+            byte[] arrReqData = BitConverter.GetBytes(reDataL);
+            lstSendData[7] = arrReqData[0];
+            lstSendData[8] = arrReqData[1];
+
+
+            // B4: Send Data
+            sock.Send(lstSendData.ToArray());
+
+            // B5: Recieve Data
+            byte[] arrRcv = new byte[512];
+            List<byte> lstRcv = new List<byte>();
+            sock.Receive(arrRcv);
+            lstRcv.AddRange(arrRcv);
+
+            // B6: Phân tích data nhận về
+            // 6.1 Sub Header
+            if (lstRcv[0] != 0xD0 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.2 Access Route
+            // 6.2.1 Network No
+            if (lstRcv[0] != (byte)this.NetWorkNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.2 PC No
+            if (lstRcv[0] != (byte)this.PcNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.3 Request Destination Module IO
+            if (lstRcv[0] != 0xFF || lstRcv[1] != 0x03)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+            // 6.2.4 Request Station No
+            if (lstRcv[0] != (byte)this.StationNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+
+            // 6.3 Request Data Length
+            short reqDataLength = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            if (reqDataLength < 2)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.4 End Code
+            if (lstRcv[0] != 0x00 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.5 Data
+            kq = BitConverter.ToInt32(new byte[] { lstRcv[0], lstRcv[1], lstRcv[2], lstRcv[3] }, 0);
+            return kq;
+        }
+        public float ReadFLoat(Device _devCode, int _devNumber)
+        {
+            float kq = 0f;
+            // B1: Kiểm tra đã khởi tạo
+            if (sock == null)
+            {
+                return kq;
+            }
+            // B2: Kiểm tra đã kết nối
+            if (sock.Connected == false)
+            {
+                return kq;
+            }
+
+            // B3: Chuẩn bị data
+            List<byte> lstSendData = new List<byte>();
+            // 3.1 Header: Đã tự động thêm vào <Skip>
+            // 3.2 Subheader [2byte]
+            lstSendData.Add(0x50);
+            lstSendData.Add(0x00);
+
+            // 3.3 Access Route
+            // 3.3.1 Network No
+            lstSendData.Add((byte)this.NetWorkNo);
+            // 3.3.2 PC No
+            lstSendData.Add((byte)this.PcNo);
+            // 3.3.3 Request Destination Module IO
+            lstSendData.Add(0xFF);
+            lstSendData.Add(0x03);
+            // 3.3.4 Request Destination Module Station
+            lstSendData.Add((byte)this.StationNo);
+
+            // 3.4 Request Data Length [byte7 - byte8]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+
+            // 3.5 Monitoring Time
+            lstSendData.Add(0x10);
+            lstSendData.Add(0x00);
+
+            // 3.6 Request Data
+            // 3.6.1 Command [0401]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x04);
+            // 3.6.2 Sub command [0000]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+            // 3.6.3 Head Device Number
+            byte[] headDevice = BitConverter.GetBytes(_devNumber);
+            lstSendData.Add(headDevice[0]);
+            lstSendData.Add(headDevice[1]);
+            lstSendData.Add(headDevice[2]);
+            // 3.6.4 Device Code
+            lstSendData.Add((byte)_devCode);
+            // 3.6.5 Number Of Device Point
+            int devPoint = 2;
+            byte[] arrDevPoint = BitConverter.GetBytes(devPoint);
+            lstSendData.Add(arrDevPoint[0]);
+            lstSendData.Add(arrDevPoint[1]);
+
+            // 3.7 Tính lại Request Data Length
+            int reDataL = lstSendData.Count - 2 - 5 - 2;
+            byte[] arrReqData = BitConverter.GetBytes(reDataL);
+            lstSendData[7] = arrReqData[0];
+            lstSendData[8] = arrReqData[1];
+
+
+            // B4: Send Data
+            sock.Send(lstSendData.ToArray());
+
+            // B5: Recieve Data
+            byte[] arrRcv = new byte[512];
+            List<byte> lstRcv = new List<byte>();
+            sock.Receive(arrRcv);
+            lstRcv.AddRange(arrRcv);
+
+            // B6: Phân tích data nhận về
+            // 6.1 Sub Header
+            if (lstRcv[0] != 0xD0 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.2 Access Route
+            // 6.2.1 Network No
+            if (lstRcv[0] != (byte)this.NetWorkNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.2 PC No
+            if (lstRcv[0] != (byte)this.PcNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.3 Request Destination Module IO
+            if (lstRcv[0] != 0xFF || lstRcv[1] != 0x03)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+            // 6.2.4 Request Station No
+            if (lstRcv[0] != (byte)this.StationNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+
+            // 6.3 Request Data Length
+            short reqDataLength = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            if (reqDataLength < 2)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.4 End Code
+            if (lstRcv[0] != 0x00 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.5 Data
+            kq = BitConverter.ToSingle(new byte[] { lstRcv[0], lstRcv[1], lstRcv[2], lstRcv[3] }, 0);
+            return kq;
+        }
+
+        public bool ReadBit(Device _devCode, int _devNumber)
+        {
+            bool kq = false;
+            // B1: Kiểm tra đã khởi tạo
+            if (sock == null)
+            {
+                return kq;
+            }
+            // B2: Kiểm tra đã kết nối
+            if (sock.Connected == false)
+            {
+                return kq;
+            }
+
+            // B3: Chuẩn bị data
+            List<byte> lstSendData = new List<byte>();
+            // 3.1 Header: Đã tự động thêm vào <Skip>
+            // 3.2 Subheader [2byte]
+            lstSendData.Add(0x50);
+            lstSendData.Add(0x00);
+
+            // 3.3 Access Route
+            // 3.3.1 Network No
+            lstSendData.Add((byte)this.NetWorkNo);
+            // 3.3.2 PC No
+            lstSendData.Add((byte)this.PcNo);
+            // 3.3.3 Request Destination Module IO
+            lstSendData.Add(0xFF);
+            lstSendData.Add(0x03);
+            // 3.3.4 Request Destination Module Station
+            lstSendData.Add((byte)this.StationNo);
+
+            // 3.4 Request Data Length [byte7 - byte8]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+
+            // 3.5 Monitoring Time
+            lstSendData.Add(0x10);
+            lstSendData.Add(0x00);
+
+            // 3.6 Request Data
+            // 3.6.1 Command [0401]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x04);
+            // 3.6.2 Sub command [0001]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x00);
+            // 3.6.3 Head Device Number
+            byte[] headDevice = BitConverter.GetBytes(_devNumber);
+            lstSendData.Add(headDevice[0]);
+            lstSendData.Add(headDevice[1]);
+            lstSendData.Add(headDevice[2]);
+            // 3.6.4 Device Code
+            lstSendData.Add((byte)_devCode);
+            // 3.6.5 Number Of Device Point
+            int devPoint = 1;
+            byte[] arrDevPoint = BitConverter.GetBytes(devPoint);
+            lstSendData.Add(arrDevPoint[0]);
+            lstSendData.Add(arrDevPoint[1]);
+
+            // 3.7 Tính lại Request Data Length
+            int reDataL = lstSendData.Count - 2 - 5 - 2;
+            byte[] arrReqData = BitConverter.GetBytes(reDataL);
+            lstSendData[7] = arrReqData[0];
+            lstSendData[8] = arrReqData[1];
+            // B4: Send Data
+            sock.Send(lstSendData.ToArray());
+
+            // B5: Recieve Data
+            byte[] arrRcv = new byte[512];
+            List<byte> lstRcv = new List<byte>();
+            sock.Receive(arrRcv);
+            lstRcv.AddRange(arrRcv);
+
+            // B6: Phân tích data nhận về
+            // 6.1 Sub Header
+            if (lstRcv[0] != 0xD0 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.2 Access Route
+            // 6.2.1 Network No
+            if (lstRcv[0] != (byte)this.NetWorkNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.2 PC No
+            if (lstRcv[0] != (byte)this.PcNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.3 Request Destination Module IO
+            if (lstRcv[0] != 0xFF || lstRcv[1] != 0x03)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+            // 6.2.4 Request Station No
+            if (lstRcv[0] != (byte)this.StationNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+
+            // 6.3 Request Data Length
+            short reqDataLength = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            if (reqDataLength < 2)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.4 End Code
+            if (lstRcv[0] != 0x00 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.5 Data
+            if (lstRcv[0] != 0)
+            {
+                kq = true;
+            }
+            return kq;
+        }
+        public List<bool> ReadMultiBit(Device _devCode, int _devNumber, int _count)
+        {
+            List<bool> kq = new List<bool>();
+            // B1: Kiểm tra đã khởi tạo
+            if (sock == null)
+            {
+                return kq;
+            }
+            // B2: Kiểm tra đã kết nối
+            if (sock.Connected == false)
+            {
+                return kq;
+            }
+
+            // B3: Chuẩn bị data
+            List<byte> lstSendData = new List<byte>();
+            // 3.1 Header: Đã tự động thêm vào <Skip>
+            // 3.2 Subheader [2byte]
+            lstSendData.Add(0x50);
+            lstSendData.Add(0x00);
+
+            // 3.3 Access Route
+            // 3.3.1 Network No
+            lstSendData.Add((byte)this.NetWorkNo);
+            // 3.3.2 PC No
+            lstSendData.Add((byte)this.PcNo);
+            // 3.3.3 Request Destination Module IO
+            lstSendData.Add(0xFF);
+            lstSendData.Add(0x03);
+            // 3.3.4 Request Destination Module Station
+            lstSendData.Add((byte)this.StationNo);
+
+            // 3.4 Request Data Length [byte7 - byte8]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+
+            // 3.5 Monitoring Time
+            lstSendData.Add(0x10);
+            lstSendData.Add(0x00);
+
+            // 3.6 Request Data
+            // 3.6.1 Command [0401]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x04);
+            // 3.6.2 Sub command [0001]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x00);
+            // 3.6.3 Head Device Number
+            byte[] headDevice = BitConverter.GetBytes(_devNumber);
+            lstSendData.Add(headDevice[0]);
+            lstSendData.Add(headDevice[1]);
+            lstSendData.Add(headDevice[2]);
+            // 3.6.4 Device Code
+            lstSendData.Add((byte)_devCode);
+            // 3.6.5 Number Of Device Point
+            if (_count <= 0) { return kq; }
+            int devPoint = _count;
+            byte[] arrDevPoint = BitConverter.GetBytes(devPoint);
+            lstSendData.Add(arrDevPoint[0]);
+            lstSendData.Add(arrDevPoint[1]);
+
+            // 3.7 Tính lại Request Data Length
+            int reDataL = lstSendData.Count - 2 - 5 - 2;
+            byte[] arrReqData = BitConverter.GetBytes(reDataL);
+            lstSendData[7] = arrReqData[0];
+            lstSendData[8] = arrReqData[1];
+            // B4: Send Data
+            sock.Send(lstSendData.ToArray());
+
+            // B5: Recieve Data
+            byte[] arrRcv = new byte[512];
+            List<byte> lstRcv = new List<byte>();
+            sock.Receive(arrRcv);
+            lstRcv.AddRange(arrRcv);
+
+            // B6: Phân tích data nhận về
+            // 6.1 Sub Header
+            if (lstRcv[0] != 0xD0 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.2 Access Route
+            // 6.2.1 Network No
+            if (lstRcv[0] != (byte)this.NetWorkNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.2 PC No
+            if (lstRcv[0] != (byte)this.PcNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.3 Request Destination Module IO
+            if (lstRcv[0] != 0xFF || lstRcv[1] != 0x03)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+            // 6.2.4 Request Station No
+            if (lstRcv[0] != (byte)this.StationNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+
+            // 6.3 Request Data Length
+            short reqDataLength = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            if (reqDataLength < 2)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.4 End Code
+            if (lstRcv[0] != 0x00 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.5 Data
+            int byteCount = (_count / 2) + (_count % 2);
+            // Ví dụ đọc 5 bit > count = 5
+            // Số byte cần xử lý là 2 + 1 = 3 byte
+            for (int i = 0; i < byteCount; i++)
+            {
+                if (lstRcv[i] == 0x00)
+                {
+                    kq.Add(false);
+                    kq.Add(false);
+                }
+                else if (lstRcv[i] == 0x10)
+                {
+                    kq.Add(true);
+                    kq.Add(false);
+                }
+                else if (lstRcv[i] == 0x01)
+                {
+                    kq.Add(false);
+                    kq.Add(true);
+                }
+                else
+                {
+                    kq.Add(true);
+                    kq.Add(true);
+                }
+            }
+            return kq;
+        }
+
+        public short WriteWord(Device _devCode, int _devNumber, short _value)
+        {
+            short kq = -1;
+            // B1: Kiểm tra đã khởi tạo
+            if (sock == null)
+            {
+                return kq;
+            }
+            // B2: Kiểm tra đã kết nối
+            if (sock.Connected == false)
+            {
+                return kq;
+            }
+
+            // B3: Chuẩn bị data
+            List<byte> lstSendData = new List<byte>();
+            // 3.1 Header: Đã tự động thêm vào <Skip>
+            // 3.2 Subheader [2byte]
+            lstSendData.Add(0x50);
+            lstSendData.Add(0x00);
+
+            // 3.3 Access Route
+            // 3.3.1 Network No
+            lstSendData.Add((byte)this.NetWorkNo);
+            // 3.3.2 PC No
+            lstSendData.Add((byte)this.PcNo);
+            // 3.3.3 Request Destination Module IO
+            lstSendData.Add(0xFF);
+            lstSendData.Add(0x03);
+            // 3.3.4 Request Destination Module Station
+            lstSendData.Add((byte)this.StationNo);
+
+            // 3.4 Request Data Length [byte7 - byte8]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+
+            // 3.5 Monitoring Time
+            lstSendData.Add(0x10);
+            lstSendData.Add(0x00);
+
+            // 3.6 Request Data
+            // 3.6.1 Command [1401]
+            lstSendData.Add(0x01);
+            lstSendData.Add(0x14);
+            // 3.6.2 Sub command [0000]
+            lstSendData.Add(0x00);
+            lstSendData.Add(0x00);
+            // 3.6.3 Head Device Number
+            byte[] headDevice = BitConverter.GetBytes(_devNumber);
+            lstSendData.Add(headDevice[0]);
+            lstSendData.Add(headDevice[1]);
+            lstSendData.Add(headDevice[2]);
+            // 3.6.4 Device Code
+            lstSendData.Add((byte)_devCode);
+            // 3.6.5 Number Of Device Point
+            int devPoint = 1;
+            byte[] arrDevPoint = BitConverter.GetBytes(devPoint);
+            lstSendData.Add(arrDevPoint[0]);
+            lstSendData.Add(arrDevPoint[1]);
+
+            // 3.7 Tính lại Request Data Length
+            int reDataL = lstSendData.Count - 2 - 5 - 2;
+            byte[] arrReqData = BitConverter.GetBytes(reDataL);
+            lstSendData[7] = arrReqData[0];
+            lstSendData[8] = arrReqData[1];
+            // B4: Send Data
+            sock.Send(lstSendData.ToArray());
+
+            // B5: Recieve Data
+            byte[] arrRcv = new byte[512];
+            List<byte> lstRcv = new List<byte>();
+            sock.Receive(arrRcv);
+            lstRcv.AddRange(arrRcv);
+
+            // B6: Phân tích data nhận về
+            // 6.1 Sub Header
+            if (lstRcv[0] != 0xD0 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.2 Access Route
+            // 6.2.1 Network No
+            if (lstRcv[0] != (byte)this.NetWorkNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.2 PC No
+            if (lstRcv[0] != (byte)this.PcNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+            // 6.2.3 Request Destination Module IO
+            if (lstRcv[0] != 0xFF || lstRcv[1] != 0x03)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+            // 6.2.4 Request Station No
+            if (lstRcv[0] != (byte)this.StationNo)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 1);
+
+            // 6.3 Request Data Length
+            short reqDataLength = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            if (reqDataLength < 2)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.4 End Code
+            if (lstRcv[0] != 0x00 || lstRcv[1] != 0x00)
+            {
+                return kq;
+            }
+            lstRcv.RemoveRange(0, 2);
+
+            // 6.5 Data
+            kq = BitConverter.ToInt16(new byte[] { lstRcv[0], lstRcv[1] }, 0);
+            return kq;
+        }
+
+
 
     }
 }

@@ -15,6 +15,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
         <Grid Grid.Column="0">
@@ -138,6 +139,41 @@
                 </StackPanel>
             </ScrollViewer>
         </Grid>
+
+        <Grid Grid.Column="4">
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="15"></Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Background" Value="LightGray"></Setter>
+                    <Setter Property="FontSize" Value="40"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="15"></Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+                    <Setter Property="Background" Value="LightGray"></Setter>
+                    <Setter Property="FontSize" Value="40"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                </Style>
+            </Grid.Resources>
+
+            <ScrollViewer>
+                <StackPanel>
+                    <Button Name="btnSMLPOpen">MC Open</Button>
+                    <Button Name="btnSMLPClose">MC Close</Button>
+                    <TextBox Name="txtSMLPRecieve">.........</TextBox>
+                    <Button Name="btnSMLPReadWord">ReadWord</Button>
+                    <Button Name="btnSMLPReadDWord">ReadDWord</Button>
+                    <Button Name="btnSMLPReadFloat">ReadFloat</Button>
+                    <Button Name="btnSMLPReadBit">ReadBit</Button>
+                    <Button Name="btnSMLPReadMultiBit">ReadBit</Button>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
 
 
     </Grid>
