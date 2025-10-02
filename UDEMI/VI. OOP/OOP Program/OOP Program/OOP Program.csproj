@@ -6,7 +6,7 @@
     <RootNamespace>OOP_Program</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>OOP_Program.Class4</StartupObject>
+	  <StartupObject>OOP_Program.Class3</StartupObject>
   </PropertyGroup>
 
 </Project>

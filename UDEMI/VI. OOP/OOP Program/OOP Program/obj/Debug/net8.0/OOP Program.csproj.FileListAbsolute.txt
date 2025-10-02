@@ -27,3 +27,18 @@ F:\90. HOC TAP\01. THUC HANH\03. UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug
 F:\90. HOC TAP\01. THUC HANH\03. UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.pdb
 F:\90. HOC TAP\01. THUC HANH\03. UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.genruntimeconfig.cache
 F:\90. HOC TAP\01. THUC HANH\03. UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\ref\OOP Program.dll
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\bin\Debug\net8.0\OOP Program.exe
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\bin\Debug\net8.0\OOP Program.deps.json
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\bin\Debug\net8.0\OOP Program.runtimeconfig.json
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\bin\Debug\net8.0\OOP Program.dll
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\bin\Debug\net8.0\OOP Program.pdb
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.GeneratedMSBuildEditorConfig.editorconfig
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.AssemblyInfoInputs.cache
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.AssemblyInfo.cs
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.csproj.CoreCompileInputs.cache
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.sourcelink.json
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.dll
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\refint\OOP Program.dll
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.pdb
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\OOP Program.genruntimeconfig.cache
+F:\90. HOC TAP\01. THUC HANH\UDEMI\VI. OOP\OOP Program\OOP Program\obj\Debug\net8.0\ref\OOP Program.dll

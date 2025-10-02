@@ -12,6 +12,7 @@ namespace OOP_Program
         {
             IAnimal animal = new Class3_1();
             animal.Speak();
+            animal.Move();
         }
     }
 

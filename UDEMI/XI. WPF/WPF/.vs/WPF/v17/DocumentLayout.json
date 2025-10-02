@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\03. UDEMI\\XI. WPF\\WPF\\",
+  "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|c:\\users\\d.q.lam\\desktop\\individual_\\03. udemi\\xi. wpf\\wpf\\wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\03. UDEMI\\XI. WPF\\WPF\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\xi. wpf\\wpf\\wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|solutionrelative:wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\xi. wpf\\wpf\\wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|solutionrelative:wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\xi. wpf\\wpf\\wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BED15DC-3FB2-4EA6-B18D-E5F30FCD02E3}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,26 +26,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WPF\\App.xaml.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\App.xaml.cs",
+              "RelativeToolTip": "WPF\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T02:16:31.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\03. UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\03. UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml",
-              "RelativeToolTip": "WPF\\MainWindow.xaml",
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\App.xaml",
+              "RelativeDocumentMoniker": "WPF\\App.xaml",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\App.xaml",
+              "RelativeToolTip": "WPF\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-23T08:22:30.878Z"
+              "WhenOpened": "2025-10-02T02:16:24.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml",
+              "RelativeToolTip": "WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T08:22:30.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\03. UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\03. UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\XI. WPF\\WPF\\WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
