@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\vi. oop\\oop program\\oop program\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|solutionrelative:oop program\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\vi. oop\\oop program\\oop program\\oop program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|solutionrelative:oop program\\oop program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\vi. oop\\oop program\\oop program\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|solutionrelative:oop program\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\vi. oop\\oop program\\oop program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|solutionrelative:oop program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\vi. oop\\oop program\\oop program\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|solutionrelative:oop program\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|f:\\90. hoc tap\\01. thuc hanh\\udemi\\vi. oop\\oop program\\oop program\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE70C114-8DDE-4EB1-9D14-A9152A97F51B}|OOP Program\\OOP Program.csproj|solutionrelative:oop program\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Program.cs",
+              "RelativeDocumentMoniker": "OOP Program\\Program.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Program.cs",
+              "RelativeToolTip": "OOP Program\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T02:20:23.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class4.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class4.cs",
+              "RelativeDocumentMoniker": "OOP Program\\Class4.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class4.cs",
+              "RelativeToolTip": "OOP Program\\Class4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:59:39.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class3.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class3.cs",
+              "RelativeDocumentMoniker": "OOP Program\\Class3.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class3.cs*",
+              "RelativeToolTip": "OOP Program\\Class3.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:56:36.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class2.cs",
+              "RelativeDocumentMoniker": "OOP Program\\Class2.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class2.cs",
+              "RelativeToolTip": "OOP Program\\Class2.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:31:28.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class1.cs",
+              "RelativeDocumentMoniker": "OOP Program\\Class1.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\Class1.cs",
+              "RelativeToolTip": "OOP Program\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:22:18.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OOP Program.csproj",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\OOP Program.csproj",
+              "RelativeDocumentMoniker": "OOP Program\\OOP Program.csproj",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\UDEMI\\VI. OOP\\OOP Program\\OOP Program\\OOP Program.csproj",
+              "RelativeToolTip": "OOP Program\\OOP Program.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T09:21:43.058Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
