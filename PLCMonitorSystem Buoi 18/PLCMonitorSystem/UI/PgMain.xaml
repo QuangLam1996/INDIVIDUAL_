@@ -43,7 +43,14 @@
         </Grid>
 
         <Grid Grid.Column="1">
-            <BieuDo:PlotView x:Name="myChart"></BieuDo:PlotView>
+            <TabControl>
+                <TabItem Header="Bieu do 1">
+                    <BieuDo:PlotView x:Name="myChart"></BieuDo:PlotView>
+
+                </TabItem>
+                <TabItem Header="Bieu do 2"></TabItem>
+
+            </TabControl>
         </Grid>
     </Grid>
 </Page>

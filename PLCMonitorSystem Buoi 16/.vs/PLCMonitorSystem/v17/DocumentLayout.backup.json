@@ -1,6 +1,9 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 16\\",
+<<<<<<< HEAD
+  "Documents": [],
+=======
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 16\\plcmonitorsystem\\ui\\pgio.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -19,10 +22,14 @@
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\lib\\mylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+>>>>>>> ad7facef886b88c77159efbb734829ceba30e4a5
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
+      "DocumentGroups": []
+=======
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -81,6 +88,7 @@
           ]
         }
       ]
+>>>>>>> ad7facef886b88c77159efbb734829ceba30e4a5
     }
   ]
 }

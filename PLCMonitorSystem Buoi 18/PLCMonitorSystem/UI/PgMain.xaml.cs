@@ -16,6 +16,8 @@ using System.Windows.Shapes;
 using System.Timers;
 using PLCMonitorSystem.LIB;
 using System.Windows.Threading;
+using System.Reflection.Emit;
+using System.Threading;
 
 
 namespace PLCMonitorSystem.UI
@@ -27,8 +29,14 @@ namespace PLCMonitorSystem.UI
 
     public partial class PgMain : Page
     {
-        Timer timer = new Timer(100); // Tạo Timer
-        DispatcherTimer timer2 = new DispatcherTimer(); // Tạo Timer
+        System.Timers.Timer timer = new System.Timers.Timer(100); // Tạo Timer
+
+        MyLogger logger = new MyLogger("Pg.Main");
+        Sock_SLMP sMLP = new Sock_SLMP();
+
+        List<List<double>> lstValue = new List<List<double>>();
+        List<List<string>> lstLabel = new List<List<string>>();
+        int stt = 0;
 
         public PgMain()
         {
@@ -37,26 +45,63 @@ namespace PLCMonitorSystem.UI
             timer.AutoReset = true; // Tự động lặp lại
             timer.Elapsed += Timer_Elapsed; // Tạo Event
 
-            timer2.Interval = TimeSpan.FromMilliseconds(100); // Thêm giá trị 
-            timer2.Tick += Timer2_Tick; // Tạo Event
 
             this.Loaded += PgMain_Loaded;
+            this.Unloaded += PgMain_Unloaded;
+
+            this.btnStart.Click += BtnStart_Click;
+            this.btnStop.Click += BtnStop_Click;
+
         }
 
-        private void Timer2_Tick(object sender, EventArgs e)
+        private void BtnStop_Click(object sender, RoutedEventArgs e)
         {
-            this.timer2.Stop();
+            timer.Stop();
+            this.btnStart.ClearValue(BackgroundProperty);
         }
+
+        private void BtnStart_Click(object sender, RoutedEventArgs e)
+        {
+            if (sMLP.Connect() != 0)
+            {
+                return;
+            }
+            this.btnStart.Background = Brushes.LightGreen;
+            timer.Start();
+        }
+
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            this.timer.Stop();
+            List D100;
+            bool M100 = false;
+            //D100 = sMLP.Re(Device.D, 100, 1);
+            //M100 = sMLP.ReadBit(Device.M, 100);
+
+            // Chuẩn bị data vẽ biểu đồ
+            if (M100 == false)
+            {
+                //return;
+            }
+            //lstValue.Add();
+            //stt++;
+            //lstLabel.Add(stt.ToString());
+
+            // Vẽ biểu đồ
+            //LineChartViewModel line = new LineChartViewModel("Time", "Value", lstValue, lstLabel);
+            //this.myChart.Model = line.MyModel;
         }
 
         private void PgMain_Loaded(object sender, RoutedEventArgs e)
         {
-            timer.Start(); // Bắt đầu chạy
-            timer2.Start(); // Bắt đầu chạy
+            int kq = sMLP.Connect();
+            Thread.Sleep(100);
+
+        }
+        private void PgMain_Unloaded(object sender, RoutedEventArgs e)
+        {
+            timer.Stop();
+            int kq = sMLP.Disconnect();
         }
 
     }

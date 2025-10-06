@@ -365,3 +365,46 @@ F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonit.66923BEB.Up2Date
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\OxyPlot.dll
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.Shared.dll
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\OxyPlot.xml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.Shared.xml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.AssemblyReference.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgEthernet.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgSerial.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\App.g.cs
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\App.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\MainWindow.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgEthernet.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\PgSerial.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.GenerateResource.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem 10.csproj.CoreCompileInputs.cache
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonit.66923BEB.Up2Date
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+C:\Users\D.Q.LAM\Desktop\INDIVIDUAL_\PLCMonitorSystem Buoi 18\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config

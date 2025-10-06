@@ -55,9 +55,15 @@
               "Title": "Sock_SLMP.cs",
               "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 13\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+<<<<<<< HEAD
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 13\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwLMAAAAVAAAAAAAAAA==",
+=======
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 13\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs*",
               "RelativeToolTip": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs*",
               "ViewState": "AgIAAOoCAAAAAAAAAAAkwAADAAAiAAAAAAAAAA==",
+>>>>>>> ad7facef886b88c77159efbb734829ceba30e4a5
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T07:11:14.134Z",
               "EditorCaption": ""

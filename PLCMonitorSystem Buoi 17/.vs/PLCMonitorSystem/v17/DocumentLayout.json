@@ -1,8 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 17\\",
+  "WorkspaceRootPath": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|c:\\users\\d.q.lam\\desktop\\individual_\\plcmonitorsystem buoi 17\\plcmonitorsystem\\ui\\pgethernet.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgethernet.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgethernet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgethernet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\data\\runsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\runsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgmenu.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgmenu.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgserial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgserial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\wndmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\wndmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\lib\\sock_slmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\lib\\sock_slmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\data\\socksetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\socksetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\data\\mcsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\mcsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 17\\plcmonitorsystem\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +73,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 17\\plcmonitorsystem\\data\\runsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\runsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 21066ea07e350a7a39276096060f92925ebf53b8
     }
   ],
   "DocumentGroupContainers": [
@@ -27,13 +88,182 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "PgEthernet.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:43:22.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PgMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgMenu.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgMenu.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgMenu.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:38:18.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PgMain.xaml",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgMain.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgMain.xaml",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgMain.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T09:03:22.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WndMain.xaml",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\WndMain.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\WndMain.xaml",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\WndMain.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\WndMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T09:01:06.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PgIO.xaml",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgIO.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgIO.xaml",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgIO.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgIO.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T08:59:57.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PgSerial.xaml",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgSerial.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgSerial.xaml",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgSerial.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgSerial.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T08:59:49.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PgEthernet.xaml",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgEthernet.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgEthernet.xaml",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgEthernet.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgEthernet.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T08:59:41.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PgMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgMenu.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgMenu.xaml",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgMenu.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T08:56:37.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PgSerial.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:37:52.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sock_SLMP.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:29:58.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "McSetting.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\McSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\McSetting.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\McSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\McSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:29:48.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SockSetting.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:29:08.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RunSetting.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\RunSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\RunSetting.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\RunSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\RunSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:27:47.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+=======
+>>>>>>> 21066ea07e350a7a39276096060f92925ebf53b8
               "Title": "UIManager.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\UIManager.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\UIManager.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\UIManager.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\UI\\UIManager.cs",
               "RelativeToolTip": "PLCMonitorSystem\\UI\\UIManager.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAIwJYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-10-02T07:25:43.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSetting.cs",
+              "DocumentMoniker": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "ToolTip": "C:\\Users\\D.Q.LAM\\Desktop\\INDIVIDUAL_\\PLCMonitorSystem Buoi 17\\PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T07:02:13.793Z"
+=======
               "WhenOpened": "2025-10-03T07:25:48.394Z",
               "EditorCaption": ""
             },
@@ -60,6 +290,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T07:23:48.386Z"
+>>>>>>> 21066ea07e350a7a39276096060f92925ebf53b8
             }
           ]
         }

@@ -133,3 +133,5 @@
 16:40:08:082 [Pg.Serial]: SMLP Open
 16:40:14:528 [Pg.IO]: Stop timer!
 16:40:14:529 [Pg.IO]: Stop PlcComm!
+21:58:02:491 [Pg.IO]: Stop timer!
+21:58:02:491 [Pg.IO]: Stop PlcComm!

@@ -1,0 +1,4 @@
+22:22:07:085 [Pg.IO]: Stop timer!
+22:22:07:086 [Pg.IO]: Stop PlcComm!
+22:29:49:629 [Pg.IO]: Stop timer!
+22:29:49:629 [Pg.IO]: Stop PlcComm!
