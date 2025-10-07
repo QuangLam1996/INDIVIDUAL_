@@ -5,10 +5,27 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PLCMonitorSystem.UI"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="658" d:DesignWidth="1366"
       Title="PgAlarm">
 
-    <Grid>
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer>
+            <StackPanel>
+                <Button x:Name="btnInsert"
+                        Content="INSERT"
+                        Height="50"/>
+                <Button x:Name="btnShow"
+                        Content="SHOW"
+                        Height="50"/>
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Column="1">
+            <DataGrid x:Name="dtGrid"></DataGrid>
+        </Grid>
         
     </Grid>
 </Page>

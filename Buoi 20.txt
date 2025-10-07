@@ -16,8 +16,8 @@ Buoi 15_Done
 Buoi 16_Done
 Buoi 17_Done
 Buoi 18_Done
-Buoi 19_Doing
-Buoi 20_Wait
+Buoi 19_Done
+Buoi 20_Doing
 
 
 
