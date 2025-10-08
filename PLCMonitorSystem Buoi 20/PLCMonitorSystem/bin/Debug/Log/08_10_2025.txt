@@ -1,0 +1,7 @@
+00:18:54:713 [Pg.IO]: Stop timer!
+00:18:54:715 [Pg.IO]: Stop PlcComm!
+00:19:06:178 [Pg.IO]: Stop timer!
+00:19:06:178 [Pg.IO]: Stop PlcComm!
+14:32:17:405 [Pg.Serial]: SMLP Open
+17:03:08:071 [Pg.IO]: Stop timer!
+17:03:08:072 [Pg.IO]: Stop PlcComm!

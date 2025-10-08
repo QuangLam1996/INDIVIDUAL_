@@ -1,0 +1,18 @@
+1. Cú pháp tạo bảng
+CREATE TABLE "nhietdo" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"giatri"	REAL NOT NULL DEFAULT 0,
+	"thoigian"	TEXT NOT NULL DEFAULT 07102025,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
+2. Thêm data
+INSERT INTO apsuat (giatri, thoigian)
+VALUES(456,'07_10_2025');
+
+3. Truy vấn data
+SELECT * FROM apsuat;  // Truy vấn hết data trong bảng
+SELECT giatri FROM apsuat; // Truy vấn theo từng giá trị
+SELECT * FROM apsuat WHERE id<3; // Truy vấn có điều kiện
+SELECT * FROM apsuat ORDER BY id ASC; // Truy vấn sắp xếp tăng
+SELECT * FROM apsuat ORDER BY id DESC; // // Truy vấn sắp xếp giảm

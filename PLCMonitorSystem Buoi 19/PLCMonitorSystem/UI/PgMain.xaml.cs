@@ -49,7 +49,7 @@ namespace PLCMonitorSystem.UI
             //timer.AutoReset = true; // Tự động lặp lại
             //timer.Elapsed += Timer_Elapsed; // Tạo Event
 
-            timer1.Interval = TimeSpan.FromMilliseconds(100);
+            timer1.Interval = TimeSpan.FromMilliseconds(1000);
             timer1.Tick += Timer1_Tick;
 
             this.Loaded += PgMain_Loaded;
@@ -69,8 +69,8 @@ namespace PLCMonitorSystem.UI
 
             Random rnd = new Random();
             short[] value = new short[2];
-            value[0] = (short)rnd.Next(0,1000);
-            value[1] = (short)rnd.Next(0,1000);
+            value[0] = (short)rnd.Next(0,99);
+            value[1] = (short)rnd.Next(0,99);
 
             // B2: Chuẩn bị dữ liệu vẽ biểu đồ:
             //if (bitValue == false)
@@ -127,9 +127,9 @@ namespace PLCMonitorSystem.UI
 
         private void PgMain_Loaded(object sender, RoutedEventArgs e)
         {
-            int kq = sMLP.Connect();
-            timer1.Start();
-            Thread.Sleep(100); 
+            //int kq = sMLP.Connect();
+            //timer1.Start();
+            //Thread.Sleep(100); 
         }
         private void PgMain_Unloaded(object sender, RoutedEventArgs e)
         {
