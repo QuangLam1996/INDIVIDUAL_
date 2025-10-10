@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace PLCMonitorSystem.LIB
+namespace PLCMonitorSystem
 {
     public enum Device
     {

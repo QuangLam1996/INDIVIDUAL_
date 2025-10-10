@@ -28,7 +28,6 @@ namespace PLCMonitorSystem.UI
             btnIO.Click += BtnIO_Click;
             btnAlarm.Click += BtnAlarm_Click;
 
-            //UIManager ui = new UIManager(); 
         }
 
         private void BtnAlarm_Click(object sender, RoutedEventArgs e)

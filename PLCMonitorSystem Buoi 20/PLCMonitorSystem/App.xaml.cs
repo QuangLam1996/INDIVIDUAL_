@@ -1,5 +1,4 @@
-﻿using PLCMonitorSystem.LIB;
-using PLCMonitorSystem.UI;
+﻿using PLCMonitorSystem.UI;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

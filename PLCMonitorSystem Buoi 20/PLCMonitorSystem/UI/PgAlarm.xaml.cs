@@ -1,7 +1,4 @@
-﻿using PLCMonitorSystem.DAO;
-using PLCMonitorSystem.DATA;
-using PLCMonitorSystem.LIB;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;

@@ -9,7 +9,7 @@ using System.Windows;
 using System.Collections;
 using System.Net.Http.Headers;
 
-namespace PLCMonitorSystem.LIB
+namespace PLCMonitorSystem
 {
     public class SerialConfigParam
     {

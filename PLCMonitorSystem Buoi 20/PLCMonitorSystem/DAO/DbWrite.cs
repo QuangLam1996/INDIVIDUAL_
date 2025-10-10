@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PLCMonitorSystem.LIB;
-using PLCMonitorSystem.DATA;
-namespace PLCMonitorSystem.DAO
+
+namespace PLCMonitorSystem
 {
     class DbWrite
     {

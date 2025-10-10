@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.IO.Ports;
 using System.ComponentModel;
 
-namespace PLCMonitorSystem.LIB
+namespace PLCMonitorSystem
 {
     public enum DevCode
     {

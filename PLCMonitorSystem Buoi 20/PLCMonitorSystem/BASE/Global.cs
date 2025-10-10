@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace PLCMonitorSystem
 {
-    public class McSetting
+    public class Global
     {
-        public McSetting() { }  
     }
 }

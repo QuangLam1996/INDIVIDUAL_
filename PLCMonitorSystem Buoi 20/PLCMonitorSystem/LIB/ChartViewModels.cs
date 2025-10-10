@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PLCMonitorSystem.LIB
+namespace PLCMonitorSystem
 {
     class BarChartViewModel
     {

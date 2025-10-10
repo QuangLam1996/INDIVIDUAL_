@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace PLCMonitorSystem
 {
-    public class McSetting
+    public class DefineAlarm
     {
-        public McSetting() { }  
+    }
+
+    public enum eAlarm
+    {
+
     }
 }

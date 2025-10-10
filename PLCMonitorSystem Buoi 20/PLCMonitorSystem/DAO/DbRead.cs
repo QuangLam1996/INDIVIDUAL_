@@ -5,10 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using PLCMonitorSystem.LIB;
-using PLCMonitorSystem.DATA;
 
-namespace PLCMonitorSystem.DAO
+namespace PLCMonitorSystem
 {
     class DbRead
     {

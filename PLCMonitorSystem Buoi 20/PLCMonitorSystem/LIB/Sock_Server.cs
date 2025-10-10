@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 
-namespace PLCMonitorSystem.LIB
+namespace PLCMonitorSystem
 {
     public class EthernetServer
     {

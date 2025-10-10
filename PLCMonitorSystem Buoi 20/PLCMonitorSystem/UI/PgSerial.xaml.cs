@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using PLCMonitorSystem.LIB;
 using System.IO.Ports;
 using System.Windows.Threading;
 using System.Threading;

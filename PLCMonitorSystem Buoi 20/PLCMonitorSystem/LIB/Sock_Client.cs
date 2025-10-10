@@ -7,7 +7,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 
-namespace PLCMonitorSystem.LIB
+namespace PLCMonitorSystem
 {
     public class EthernetClient
     {

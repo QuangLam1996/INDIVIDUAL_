@@ -3,48 +3,44 @@
   "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\lib\\sock_slmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\lib\\sock_slmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\data\\timesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\timesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\ui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\data\\socksetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\socksetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\data\\alarminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\alarminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\dao\\dbwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\dao\\dbwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\ui\\wndalert.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\wndalert.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\ui\\pgalarm.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgalarm.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\ui\\wndalert.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\wndalert.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\dao\\dbread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\dao\\dbread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\plcmonitorsystem\\ui\\pgalarm.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\pgalarm.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\dao\\dba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\dao\\dba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\base\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\base\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\base\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\base\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\base\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\base\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\base\\defineio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\base\\defineio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\base\\defineservo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\base\\defineservo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|f:\\90. hoc tap\\01. thuc hanh\\plcmonitorsystem buoi 20\\plcmonitorsystem\\base\\definealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\base\\definealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sock_SLMP.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\LIB\\Sock_SLMP.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwPoBAAA8AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SockSetting.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\SockSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:12:24.05Z",
+              "WhenOpened": "2025-10-10T08:35:38.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PgMain.xaml.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\PgMain.xaml.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgMain.xaml.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\PgMain.xaml.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgMain.xaml.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAwwKoAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TimeSetting.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:07:08.412Z",
+              "WhenOpened": "2025-10-10T08:35:19.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WndAlert.xaml.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\WndAlert.xaml.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\WndAlert.xaml.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\WndAlert.xaml.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\UI\\WndAlert.xaml.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\UIManager.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\UIManager.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\UIManager.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:00:55.893Z",
+              "WhenOpened": "2025-10-10T08:27:59.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "WndAlert.xaml",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\WndAlert.xaml",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\WndAlert.xaml",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\WndAlert.xaml",
-              "RelativeToolTip": "PLCMonitorSystem\\UI\\WndAlert.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-08T08:56:14.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppSetting.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\AppSetting.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\AppSetting.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\AppSetting.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\DATA\\AppSetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Global.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\Global.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\Global.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\Global.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\Global.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:43:37.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbWrite.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DAO\\DbWrite.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\DAO\\DbWrite.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DAO\\DbWrite.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\DAO\\DbWrite.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:38:41.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlarmInfo.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\AlarmInfo.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\AlarmInfo.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\AlarmInfo.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\DATA\\AlarmInfo.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwC8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:40:13.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dba.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DAO\\Dba.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\DAO\\Dba.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DAO\\Dba.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\DAO\\Dba.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:38:01.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbRead.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DAO\\DbRead.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\DAO\\DbRead.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DAO\\DbRead.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\DAO\\DbRead.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAWwB8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:37:53.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PgAlarm.xaml.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAcwGEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T03:21:26.758Z",
+              "WhenOpened": "2025-10-10T04:47:44.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PgAlarm.xaml",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\PgAlarm.xaml",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgAlarm.xaml",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\UI\\PgAlarm.xaml",
-              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgAlarm.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-08T03:21:01.287Z",
+              "Title": "DefineServo.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\DefineServo.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\DefineServo.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\DefineServo.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\DefineServo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T04:47:13.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DefineAlarm.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\DefineAlarm.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\DefineAlarm.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\DefineAlarm.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\DefineAlarm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T04:46:43.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Function.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\Function.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\Function.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\Function.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\Function.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T04:45:04.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Define.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\Define.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\Define.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\Define.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\Define.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAWwOgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T04:45:02.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSetting.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T08:57:57.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DefineIO.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\DefineIO.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\DefineIO.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\PLCMonitorSystem Buoi 20\\PLCMonitorSystem\\BASE\\DefineIO.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\DefineIO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T04:45:03.738Z",
               "EditorCaption": ""
             }
           ]

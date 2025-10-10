@@ -2,7 +2,7 @@
 using System.Data.SQLite;
 using System.IO;
 
-namespace PLCMonitorSystem.DAO
+namespace PLCMonitorSystem
 {
     class Dba
     {

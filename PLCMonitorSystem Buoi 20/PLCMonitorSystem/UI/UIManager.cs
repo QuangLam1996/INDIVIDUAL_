@@ -9,15 +9,21 @@ using System.Windows.Media;
 using System.Xml;
 using System.IO;
 using Newtonsoft.Json;
-using PLCMonitorSystem.DATA;
 
 namespace PLCMonitorSystem.UI
 {
-    class UIManager
+    public static class UIManager
     {
         private static Hashtable danhSachManHinh = new Hashtable();
         private static WndMain wndMain = new WndMain();
         public static AppSetting appSetting = new AppSetting();
+
+        public static Define theDefine = new Define();
+        public static DefineAlarm theAlarm = new DefineAlarm();
+        public static DefineIO theIO = new DefineIO();
+        public static DefineServo theServo = new DefineServo(); 
+        public static Function theFunction = new Function();
+        public static Global theGlobal = new Global();
 
         public enum MaSoManHinh
         {
@@ -92,7 +98,6 @@ namespace PLCMonitorSystem.UI
         public static void Initial()
         {
             SwitchPage();
-            // B1: Load App Setting
             appSetting = LoadAppSetting();
 
             Switch_Pg(MaSoManHinh.PAGE_MAIN_ID);

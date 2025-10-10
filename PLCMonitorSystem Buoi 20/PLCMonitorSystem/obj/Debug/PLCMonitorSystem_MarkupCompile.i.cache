@@ -12,9 +12,9 @@ DEBUG;TRACE
 F:\90. HOC TAP\01. THUC HANH\PLCMonitorSystem Buoi 20\PLCMonitorSystem\App.xaml
 12639385053
 
-31-1030734376
+38-1642691808
 26-703392350
 MainWindow.xaml;Style_\Button.xaml;Style_\Label.xaml;Style_\TexBox_.xaml;UI\PgAlarm.xaml;UI\PgEthernet.xaml;UI\PgIO.xaml;UI\PgMain.xaml;UI\PgMenu.xaml;UI\PgSerial.xaml;UI\WndAlert.xaml;UI\WndMain.xaml;
 
-True
+False
 
