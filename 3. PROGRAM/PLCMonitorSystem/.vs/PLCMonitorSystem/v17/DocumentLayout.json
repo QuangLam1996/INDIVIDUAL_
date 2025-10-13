@@ -1,0 +1,310 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\sequence\\seqbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\sequence\\seqthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|f:\\06. itmv\\10.semi auto test\\3. program\\plcmonitorsystem\\plcmonitorsystem\\safetythread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\safetythread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\lib\\mylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\lib\\mylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\pgserial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\pgio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\pgio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\pgalarm.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\pgalarm.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\pgethernet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\pgethernet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\wndmain.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\wndmain.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\ui\\wndmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\wndmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\sequence\\sequnload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\sequnload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\sequence\\seqload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\data\\timesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\data\\timesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\plcmonitorsystem\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem 10.csproj|solutionrelative:plcmonitorsystem\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PLCMonitorSystem\\UI\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PgIO.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgIO.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgIO.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgIO.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgIO.xaml.cs",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAiwNAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:56:00.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyLogger.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\LIB\\MyLogger.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\LIB\\MyLogger.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\LIB\\MyLogger.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\LIB\\MyLogger.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:50:21.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PgAlarm.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgAlarm.xaml.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAmwIsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:42:16.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UIManager.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UIManager.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UIManager.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UIManager.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAMwG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:41:45.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SafetyThread.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SafetyThread.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\SafetyThread.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SafetyThread.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\SafetyThread.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:41:28.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:34:54.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeqThread.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:32:39.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PgSerial.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgSerial.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:56:36.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeqBase.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwH8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:30:39.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PgMain.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgMain.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgMain.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgMain.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgMain.xaml.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAWwIYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:56:24.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WndMain.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\WndMain.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\WndMain.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\WndMain.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\WndMain.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:34:45.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WndMain.xaml",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\WndMain.xaml",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\WndMain.xaml",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\WndMain.xaml",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\WndMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-12T07:34:39.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeqUnload.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqUnload.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqUnload.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqUnload.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqUnload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:31:31.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeqLoad.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:31:11.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PgEthernet.xaml.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\PgEthernet.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T03:33:56.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TimeSetting.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\TimeSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T08:35:19.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\UIManager.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\UIManager.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\UI\\UIManager.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\UI\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T08:27:59.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppSetting.cs",
+              "DocumentMoniker": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "ToolTip": "F:\\06. ITMV\\10.SEMI AUTO TEST\\3. PROGRAM\\PLCMonitorSystem\\PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\DATA\\AppSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T08:57:57.243Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

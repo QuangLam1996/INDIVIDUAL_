@@ -10,8 +10,8 @@ namespace OOP_Program
     {
         static void Main(string[] args)
         {
-            Animal myDog = new Dog();
-            Animal myCat = new Cat();
+            Animal myDog = new Dog("Brak");
+            Animal myCat = new Cat("Meow");
 
             Console.WriteLine(myDog.Sound);  // Output: Bark
             Console.WriteLine(myCat.Sound);  // Output: Meow
@@ -20,16 +20,31 @@ namespace OOP_Program
         public class Animal
         {
             public virtual string Sound { get; set; } = "Some generic animal sound";
+
+            public Animal(string _name)
+            {
+                
+            }
         }
+
 
         public class Dog : Animal
         {
-            public override string Sound { get; set; } = "Bark";
+            public override string Sound { get; set; }
+            public Dog(string _name) :base(_name)
+            {
+                this.Sound = _name;
+            }
         }
 
         public class Cat : Animal
         {
-            public override string Sound { get; set; } = "Meow";
+            public override string Sound { get; set; }
+            public Cat(string _name) : base(_name)
+            {
+                this.Sound = _name;
+            }
+
         }
 
     }

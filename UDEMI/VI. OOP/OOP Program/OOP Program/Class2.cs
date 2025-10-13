@@ -10,23 +10,15 @@ namespace OOP_Program
     {
         static void Main(string[] args)
         {
-            Aniam1 aniam1 = new Cat1();
-            Aniam1 aniam11 = new Dog1();
+            Cat1 aniam1 = new Cat1();
+            Dog1 aniam11 = new Dog1();
             aniam1.Move();
             aniam11.Move();
-            return;
-
-            var namee = "BN";
-            Class1.Name = namee;
-            Console.WriteLine(Class1.Name);
-
-
         }
 
         static class Class1 
         {
             private static string name;
-
             public static string Name { get => name; set => name = value; }
         }
 
