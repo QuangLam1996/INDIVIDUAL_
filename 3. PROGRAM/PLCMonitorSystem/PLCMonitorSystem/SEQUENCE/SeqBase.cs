@@ -95,7 +95,6 @@ namespace PLCMonitorSystem
         ALL = Int64.MaxValue,
     }
 
-
     public abstract class SeqBase
     {
         private static Int64 _state = default;
@@ -113,7 +112,16 @@ namespace PLCMonitorSystem
             _flag = flag;
         }
 
-        public abstract void Run(); // Logic chạy của mỗi Unit Seq
+        public abstract void InitStep(); // Logic chạy của mỗi Unit Seq
+        public abstract void AutoStep(); // Logic chạy của mỗi Unit Seq
+
+        public static void SetRun(eFlag state, bool action)
+        {
+            if (action)
+                _state |= (Int64)state; // Thêm Flag vào _state
+            else
+                _state &= (~(Int64)state); // Gỡ Flag ra _state
+        }
 
         public void Start()
         {
@@ -121,8 +129,8 @@ namespace PLCMonitorSystem
             _step = 0;
             SetRun((eFlag)_flag, true);
 
-            string log = string.Format("{0} : START SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
-            theLog.Add(eLog.SEQUENCE, log);
+            //string log = string.Format("{0} : START SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
+            //theLog.Add(eLog.SEQUENCE, log);
         }
 
         public void Stop()
@@ -131,8 +139,8 @@ namespace PLCMonitorSystem
             _step = -1;
             SetRun((eFlag)_flag, false);
 
-            string log = string.Format("{0} : STOP SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
-            theLog.Add(eLog.SEQUENCE, log);
+            //string log = string.Format("{0} : STOP SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
+            //theLog.Add(eLog.SEQUENCE, log);
         }
 
         public void Reset()
@@ -141,8 +149,8 @@ namespace PLCMonitorSystem
             _step = -1;
             SetRun((eFlag)_flag, false);
 
-            string log = string.Format("{0} : STOP SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
-            theLog.Add(eLog.SEQUENCE, log);
+            //string log = string.Format("{0} : STOP SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
+            //theLog.Add(eLog.SEQUENCE, log);
 
         }
 
@@ -152,9 +160,42 @@ namespace PLCMonitorSystem
             _step = -1;
             SetRun((eFlag)_flag, false);
 
-            string log = string.Format("{0} : STOP SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
-            theLog.Add(eLog.SEQUENCE, log);
+            //string log = string.Format("{0} : STOP SEQ", Enum.GetName(typeof(eFlag), GetFlag()));
+            //theLog.Add(eLog.SEQUENCE, log);
         }
+
+        public void NextStep(int step)
+        {
+            SetTimer();
+
+            if (-1 == step)
+                _step++;
+            else
+                _step = step;
+        }
+        public void PreStep()
+        {
+            _step--;
+        }
+        public void ResetStep(bool restart = false)
+        {
+            if (restart)
+            {
+                _step = 0;
+                return;
+            }
+
+            if (0 != _step && 0 == _step % 2)
+                _step--;
+        }
+
+
+        public void SetTimer()
+        {
+            _timer.Restart();
+        }
+
+
 
 
     }

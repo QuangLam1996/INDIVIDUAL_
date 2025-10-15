@@ -10,8 +10,6 @@ namespace PLCMonitorSystem
 {
     public class SeqThread
     {
-        
-        
         Thread _thread;
         bool _isRunning = true;
 
@@ -32,10 +30,12 @@ namespace PLCMonitorSystem
 
         public void Process()
         {
+            SeqLoad seqLoad = new SeqLoad(eFlag.LOAD);
             while (_isRunning)
             {
-
-
+                Thread.Sleep(10);
+                seqLoad.InitStep();
+                seqLoad.AutoStep();
             }
         }
     }
