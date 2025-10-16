@@ -1,0 +1,242 @@
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.SuggestedBindingRedirects.cache
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+D:\HOC TAP\CSHARP 240109\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 2\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 3\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 4\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+C:\Users\quang\Desktop\EXAMPLE\PLCMonitorSystem Buoi 5\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\EntityFramework.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\EntityFramework.SqlServer.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\Newtonsoft.Json.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\OxyPlot.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.Shared.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\System.Data.SQLite.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\System.Data.SQLite.EF6.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\System.Data.SQLite.Linq.dll
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\EntityFramework.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\EntityFramework.SqlServer.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\Newtonsoft.Json.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\OxyPlot.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.Shared.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\bin\Debug\System.Data.SQLite.xml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Button.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\Label.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\Style_\TexBox_.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgEthernet.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgSerial.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndAlert.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.g.cs
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\App.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\MainWindow.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgEthernet.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\PgSerial.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndAlert.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonit.4AB1FCF0.Up2Date
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe.config
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.exe
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\PLCMonitorSystem.pdb
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\EntityFramework.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\EntityFramework.SqlServer.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\Newtonsoft.Json.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\OxyPlot.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.Shared.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\System.Data.SQLite.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\System.Data.SQLite.EF6.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\System.Data.SQLite.Linq.dll
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\EntityFramework.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\EntityFramework.SqlServer.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\Newtonsoft.Json.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\OxyPlot.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\OxyPlot.Wpf.Shared.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\bin\Debug\System.Data.SQLite.xml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.AssemblyReference.cache
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe.config
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\STYLE_\Button.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\STYLE_\Label.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\STYLE_\TexBox_.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\MainWindow.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgAlarm.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgEthernet.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgIO.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgMain.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgMenu.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgSerial.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\WndAlert.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\WndMain.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\App.g.cs
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.cache
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem_MarkupCompile.lref
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\App.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\MainWindow.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgAlarm.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgEthernet.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgIO.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgMain.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgMenu.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\PgSerial.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\WndAlert.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\UI\WndMain.baml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.g.resources
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.Properties.Resources.resources
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.GenerateResource.cache
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.csproj.CoreCompileInputs.cache
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonit.4AB1FCF0.Up2Date
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.exe
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\PLCMonitorSystem.pdb
