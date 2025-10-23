@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\obj\Debug\
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\obj\Debug\
 PLCMonitorSystem
 none
 false
 DEBUG;TRACE
-F:\06. ITMV\10.SEMI AUTO TEST\3. PROGRAM\PLCMonitorSystem\PLCMonitorSystem\App.xaml
+F:\90. HOC TAP\01. THUC HANH\3. PROGRAM\PLCMonitorSystem\App.xaml
 121932214621
 
-43331151806
-26657223554
+441763576731
+261920632818
 MainWindow.xaml;STYLE_\Button.xaml;STYLE_\Label.xaml;STYLE_\TexBox_.xaml;UI\PgAlarm.xaml;UI\PgEthernet.xaml;UI\PgIO.xaml;UI\PgMain.xaml;UI\PgMenu.xaml;UI\PgSerial.xaml;UI\WndAlert.xaml;UI\WndMain.xaml;
 
 False

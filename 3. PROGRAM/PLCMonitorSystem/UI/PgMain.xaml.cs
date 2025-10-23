@@ -33,7 +33,7 @@ namespace PLCMonitorSystem.UI
         System.Windows.Threading.DispatcherTimer timer1 = new DispatcherTimer();
 
         //MyLogger logger = new MyLogger("Pg.Main");
-        Sock_SLMP sMLP = new Sock_SLMP();
+        //Sock_SLMP sMLP = new Sock_SLMP();
 
         List<double> lstValue1 = new List<double>();
         List<string> lstLabel1 = new List<string>();
@@ -109,12 +109,12 @@ namespace PLCMonitorSystem.UI
 
         private void BtnStart_Click(object sender, RoutedEventArgs e)
         {
-            if (sMLP.Connect() != 0)
-            {
-                return;
-            }
-            this.btnStart.Background = Brushes.LightGreen;
-            displayAlarm(AlarmInfo.getMessage(AlarmInfo.NEW_ALARM_ID), 100, AlarmInfo.NEW_ALARM_ID);
+            //if (sMLP.Connect() != 0)
+            //{
+            //    return;
+            //}
+            //this.btnStart.Background = Brushes.LightGreen;
+            //displayAlarm(AlarmInfo.getMessage(AlarmInfo.NEW_ALARM_ID), 100, AlarmInfo.NEW_ALARM_ID);
 
             //timer.Start();
             //timer1.Start();
@@ -128,17 +128,15 @@ namespace PLCMonitorSystem.UI
 
         private void PgMain_Loaded(object sender, RoutedEventArgs e)
         {
+            UIManager.Device.Connect();
+            Thread.Sleep(100);
+
             UIManager.threadSafety.Init();
             UIManager.threadSequence.Init();
-            //int kq = sMLP.Connect();
-            //timer1.Start();
-            //Thread.Sleep(100); 
         }
         private void PgMain_Unloaded(object sender, RoutedEventArgs e)
         {
-            //timer.Stop();
-            timer1.Stop();
-            int kq = sMLP.Disconnect();
+            UIManager.Device.Disconnect();
         }
 
         private void displayAlarm(String msg, int _bit, int code = 0)
@@ -155,7 +153,7 @@ namespace PLCMonitorSystem.UI
 
                 //int bit= default;
                 // Set Alarm Bit:
-                sMLP.WriteBit(Device.M, _bit, true);
+                //sMLP.WriteBit(Device.M, _bit, true);
 
                 // Display Alarm:
                 this.Dispatcher.Invoke(() =>
@@ -173,7 +171,7 @@ namespace PLCMonitorSystem.UI
                 }
 
                 // Clear Alarm bit:
-                sMLP.WriteBit(Device.M, _bit, false);
+                //sMLP.WriteBit(Device.M, _bit, false);
 
             }
             catch (Exception ex)

@@ -12,5 +12,15 @@ namespace PLCMonitorSystem
         {
             
         }
+
+        public void SetManualWork()
+        {
+            
+        }
+
+        public bool GetManualWork()
+        {
+            return false;
+        }
     }
 }

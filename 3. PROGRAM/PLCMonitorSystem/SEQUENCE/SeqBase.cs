@@ -50,7 +50,7 @@ namespace PLCMonitorSystem
         //EMPTY     = 1 << 30,
         //EMPTY     = 1 << 31,
 
-        /////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////
 
         //EMPTY     = 1 << 32,
         //EMPTY     = 1 << 33,
@@ -187,6 +187,7 @@ namespace PLCMonitorSystem
             else
                 _stepAuto = step;
         }
+
 
         public void SetTimer()
         {

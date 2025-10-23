@@ -112,6 +112,7 @@
     <Compile Include="LIB\Sock_Server.cs" />
     <Compile Include="LIB\Sock_Client.cs" />
     <Compile Include="DATA\TimeSetting.cs" />
+    <Compile Include="BASE\ManuWork.cs" />
     <Compile Include="SafetyThread.cs" />
     <Compile Include="SEQUENCE\SeqBase.cs" />
     <Compile Include="SEQUENCE\SeqLoad.cs" />

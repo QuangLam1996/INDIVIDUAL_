@@ -17,6 +17,7 @@ namespace PLCMonitorSystem.UI
         private static Hashtable danhSachManHinh = new Hashtable();
         private static WndMain wndMain = new WndMain();
         public static AppSetting appSetting = new AppSetting();
+        public static Sock_SLMP Device = new Sock_SLMP();
 
         public static MyLogger theLog = new MyLogger();
         public static Define theDefine = new Define();
@@ -25,6 +26,7 @@ namespace PLCMonitorSystem.UI
         public static DefineServo theServo = new DefineServo(); 
         public static Function theFunction = new Function();
         public static Global theGlobal = new Global();
+        public static Work theWork = new Work();
 
         public static SeqThread threadSequence = new SeqThread();
         public static SafetyThread threadSafety = new SafetyThread();
