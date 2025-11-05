@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\base\\manuwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\base\\manuwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|f:\\90. hoc tap\\01. thuc hanh\\3. program\\plcmonitorsystem\\sequence\\seqload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|f:\\90. hoc tap\\01. thuc hanh\\3. program\\plcmonitorsystem\\base\\manuwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\base\\manuwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\sequence\\seqbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\safetythread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\safetythread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\sequence\\seqthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\ui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\ui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\safetythread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\safetythread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|f:\\90. hoc tap\\01. thuc hanh\\3. program\\plcmonitorsystem\\base\\defineio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\base\\defineio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\sequence\\seqbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\sequence\\seqthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\sequence\\seqthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\plcmonitorsystem\\base\\defineio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD08C03-E048-45F9-A20B-A794E5AFFE6D}|PLCMonitorSystem\\PLCMonitorSystem.csproj|solutionrelative:plcmonitorsystem\\base\\defineio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ManuWork.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\BASE\\ManuWork.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\ManuWork.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\BASE\\ManuWork.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\BASE\\ManuWork.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T03:40:03.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeqLoad.cs",
+              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAkwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T02:02:47.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DefineIO.cs",
               "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\BASE\\DefineIO.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\DefineIO.cs",
@@ -54,34 +80,7 @@
               "RelativeToolTip": "PLCMonitorSystem\\BASE\\DefineIO.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAWwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T04:08:33.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManuWork.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\BASE\\ManuWork.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\BASE\\ManuWork.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\BASE\\ManuWork.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\BASE\\ManuWork.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T03:40:03.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeqLoad.cs",
-              "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
-              "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
-              "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
-              "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqLoad.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAswHsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T02:02:47.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T04:08:33.163Z"
             },
             {
               "$type": "Document",
@@ -91,53 +90,51 @@
               "RelativeDocumentMoniker": "PLCMonitorSystem\\UIManager.cs",
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\UIManager.cs",
               "RelativeToolTip": "PLCMonitorSystem\\UIManager.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAwwBoAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T02:33:34.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T02:33:34.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PgMain.xaml.cs",
               "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\UI\\PgMain.xaml.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\UI\\PgMain.xaml.cs",
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\UI\\PgMain.xaml.cs",
               "RelativeToolTip": "PLCMonitorSystem\\UI\\PgMain.xaml.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAIwIUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAIwIYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T02:24:07.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "SeqThread.cs",
               "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
               "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqThread.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowCQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T02:02:48.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SeqBase.cs",
               "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
               "ToolTip": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
               "RelativeToolTip": "PLCMonitorSystem\\SEQUENCE\\SeqBase.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAA0wKkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T02:02:47.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T02:02:47.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SafetyThread.cs",
               "DocumentMoniker": "F:\\90. HOC TAP\\01. THUC HANH\\3. PROGRAM\\PLCMonitorSystem\\SafetyThread.cs",
               "RelativeDocumentMoniker": "PLCMonitorSystem\\SafetyThread.cs",

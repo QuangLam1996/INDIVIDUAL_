@@ -107,13 +107,13 @@ namespace PLCMonitorSystem
 
         public Stopwatch _timer = new Stopwatch();
 
-        protected SeqBase(eFlag flag)
+        protected SeqBase(eFlag flag_)
         {
             _workInit = false;
             _workAuto = false;
             _stepInit = 0;
             _stepAuto = 0;
-            _flag = flag;
+            _flag = flag_;
         }
 
         public abstract void InitStep(); // Logic chạy của mỗi Unit Seq
@@ -194,5 +194,10 @@ namespace PLCMonitorSystem
             _timer.Restart();
         }
 
+
+        public virtual void Test()
+        {
+
+        }
     }
 }

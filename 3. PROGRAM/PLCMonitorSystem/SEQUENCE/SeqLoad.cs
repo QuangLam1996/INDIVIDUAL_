@@ -58,7 +58,12 @@ namespace PLCMonitorSystem
 
         public SeqLoad(eFlag flag) : base(flag)
         {
+            
+        }
 
+        public new void Test()
+        {
+            base.Test();
         }
 
         public void eInitStep(eInit step = eInit.STEP00)
@@ -123,31 +128,31 @@ namespace PLCMonitorSystem
                     break;
                 case eAuto.STEP01:
                     UIManager.theLog.CreateLog("SeqLoad.Auto", log);
-                    UIManager.theWork.ManualSw(eDO.Q00, false);
+                    UIManager.theWork.WorkSW(eDO.Q00, false);
                     eAutoStep();
 
                     break;
                 case eAuto.STEP02:
                     UIManager.theLog.CreateLog("SeqLoad.Auto", log);
-                    UIManager.theWork.ManualSw(eDO.Q01, false);
+                    UIManager.theWork.WorkSW(eDO.Q01, false);
                     eAutoStep();
 
                     break;
                 case eAuto.STEP03:
                     UIManager.theLog.CreateLog("SeqLoad.Auto", log);
-                    UIManager.theWork.ManualSw(eDO.Q02, false);
+                    UIManager.theWork.WorkSW(eDO.Q02, false);
                     eAutoStep();
 
                     break;
                 case eAuto.STEP04:
                     UIManager.theLog.CreateLog("SeqLoad.Auto", log);
-                    UIManager.theWork.ManualSw(eDO.Q03, false);
+                    UIManager.theWork.WorkSW(eDO.Q03, false);
                     eAutoStep();
 
                     break;
                 case eAuto.STEP05:
                     UIManager.theLog.CreateLog("SeqLoad.Auto", log);
-                    UIManager.theWork.ManualSw(eDO.Q04, false);
+                    UIManager.theWork.WorkSW(eDO.Q04, false);
                     eAutoStep(eAuto.STEP01);
 
                     break;

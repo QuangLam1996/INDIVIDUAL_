@@ -54,10 +54,12 @@ namespace OOP_Program
 
 
             }
+
             public void SetTimer()
             {
                 _timer.Restart();
             }
+
             public void ResetTimer()
             {
                 _timer.Reset();
@@ -68,7 +70,6 @@ namespace OOP_Program
                 int elapsed = 100;
                 return elapsed > _timer.ElapsedMilliseconds;
             }
-
 
             public eState GetState(bool old = false)
             {
